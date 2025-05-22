@@ -1,0 +1,5069 @@
+{
+  "Version": 1,
+  "Hash": "YmgVINaDQXgdeRCkHZC5LnAIhE2b/lndUpRNGUmSbC8=",
+  "Source": "Tuan4",
+  "BasePath": "_content/Tuan4",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Tuan4\\wwwroot",
+      "Source": "Tuan4",
+      "ContentRoot": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\",
+      "BasePath": "_content/Tuan4",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Tuan4.styles.css",
+      "SourceId": "Tuan4",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "BasePath": "_content/Tuan4",
+      "RelativePath": "Tuan4#[.{fingerprint}]?.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "Fingerprint": "qdehhsuoom",
+      "Integrity": "DuSjF3oKdMx5R83oYTXtw6+vAjUcw1EQRfH6Kvwv1aY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Tuan4.styles.css"
+    },
+    {
+      "Identity": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Tuan4.bundle.scp.css",
+      "SourceId": "Tuan4",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "BasePath": "_content/Tuan4",
+      "RelativePath": "Tuan4#[.{fingerprint}]!.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "Fingerprint": "qdehhsuoom",
+      "Integrity": "DuSjF3oKdMx5R83oYTXtw6+vAjUcw1EQRfH6Kvwv1aY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Tuan4.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\css\\bootstrap.min.css",
+      "SourceId": "Tuan4",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\",
+      "BasePath": "_content/Tuan4",
+      "RelativePath": "css/bootstrap.min#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zneyh1yzco",
+      "Integrity": "QUyqZrt5vIjBumoqQV0jM8CgGqscFfdGhN+nVCqX0vc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\bootstrap.min.css"
+    },
+    {
+      "Identity": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\css\\datepicker.css",
+      "SourceId": "Tuan4",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\",
+      "BasePath": "_content/Tuan4",
+      "RelativePath": "css/datepicker#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "s0gi8xed5z",
+      "Integrity": "nG1mdoqu8GZQBuEqtVOHOuKKziBkqsR4dBoY28cvlZk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\datepicker.css"
+    },
+    {
+      "Identity": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\css\\tooplate-style.css",
+      "SourceId": "Tuan4",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\",
+      "BasePath": "_content/Tuan4",
+      "RelativePath": "css/tooplate-style#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6o5acu61re",
+      "Integrity": "Np+V986G01MvDG/s8uk35YPKI5HIs3+NcCROvsdQ3Qw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\tooplate-style.css"
+    },
+    {
+      "Identity": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\favicon.ico",
+      "SourceId": "Tuan4",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\",
+      "BasePath": "_content/Tuan4",
+      "RelativePath": "favicon#[.{fingerprint}]?.ico",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "61n19gt1b8",
+      "Integrity": "Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\font-awesome-4.7.0\\css\\font-awesome.css",
+      "SourceId": "Tuan4",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\",
+      "BasePath": "_content/Tuan4",
+      "RelativePath": "font-awesome-4.7.0/css/font-awesome#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "qj35fca2th",
+      "Integrity": "NuCn4IvuZXdBaFKJOAcsU2Q3ZpwbdFisd5dux4jkQ5w=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\font-awesome-4.7.0\\css\\font-awesome.css"
+    },
+    {
+      "Identity": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\font-awesome-4.7.0\\css\\font-awesome.min.css",
+      "SourceId": "Tuan4",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\",
+      "BasePath": "_content/Tuan4",
+      "RelativePath": "font-awesome-4.7.0/css/font-awesome.min#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "rf9f4pws8w",
+      "Integrity": "eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\font-awesome-4.7.0\\css\\font-awesome.min.css"
+    },
+    {
+      "Identity": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\font-awesome-4.7.0\\fonts\\FontAwesome.otf",
+      "SourceId": "Tuan4",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\",
+      "BasePath": "_content/Tuan4",
+      "RelativePath": "font-awesome-4.7.0/fonts/FontAwesome#[.{fingerprint}]?.otf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "sgabxu717i",
+      "Integrity": "RE3UNmYV/8ShbQErL6kBNwZdPMtBD6b9Xk3de15P/NU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\font-awesome-4.7.0\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Identity": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.eot",
+      "SourceId": "Tuan4",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\",
+      "BasePath": "_content/Tuan4",
+      "RelativePath": "font-awesome-4.7.0/fonts/fontawesome-webfont#[.{fingerprint}]?.eot",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "pz0qgnv39v",
+      "Integrity": "e/yrbbmdXPvxcFygU23ceFhUMsxfpBu9etDwCQM7KXk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Identity": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.svg",
+      "SourceId": "Tuan4",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\",
+      "BasePath": "_content/Tuan4",
+      "RelativePath": "font-awesome-4.7.0/fonts/fontawesome-webfont#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "dosqy3kf6t",
+      "Integrity": "rWFXkmwWIrpOHQPUePFUE2hSS/xG9R5C/g2UX37zI+Q=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Identity": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.ttf",
+      "SourceId": "Tuan4",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\",
+      "BasePath": "_content/Tuan4",
+      "RelativePath": "font-awesome-4.7.0/fonts/fontawesome-webfont#[.{fingerprint}]?.ttf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "yex6mt8az7",
+      "Integrity": "qljzPyOaD7AvXHpsRcBD16msmgkzNYBmlOzW1O3A1qg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Identity": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.woff",
+      "SourceId": "Tuan4",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\",
+      "BasePath": "_content/Tuan4",
+      "RelativePath": "font-awesome-4.7.0/fonts/fontawesome-webfont#[.{fingerprint}]?.woff",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "eyrbpue749",
+      "Integrity": "ugxZ3rVFD1y0Gz+TYJ7i0NmVQVh33foiPoqKdTNHTwc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Identity": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.woff2",
+      "SourceId": "Tuan4",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\",
+      "BasePath": "_content/Tuan4",
+      "RelativePath": "font-awesome-4.7.0/fonts/fontawesome-webfont#[.{fingerprint}]?.woff2",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2hr3gl3r5x",
+      "Integrity": "Kt78vAQefRj88tQXh53FoJmXqmTWdbejxLbOM9oT8/4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Identity": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\font-awesome-4.7.0\\HELP-US-OUT.txt",
+      "SourceId": "Tuan4",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\",
+      "BasePath": "_content/Tuan4",
+      "RelativePath": "font-awesome-4.7.0/HELP-US-OUT#[.{fingerprint}]?.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "865w2kgh1e",
+      "Integrity": "MDTrsPfEKJZkj1MD40mc19/k2wEPlXj/RftCryiE7Ws=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\font-awesome-4.7.0\\HELP-US-OUT.txt"
+    },
+    {
+      "Identity": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\img\\bg-img-1.jpg",
+      "SourceId": "Tuan4",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\",
+      "BasePath": "_content/Tuan4",
+      "RelativePath": "img/bg-img-1#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "t06n41tylx",
+      "Integrity": "PfYzOvq7pNVB8VUPRQCkwlxCDsmjwFabAI59XWwsuqo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\bg-img-1.jpg"
+    },
+    {
+      "Identity": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\img\\bg-img-2.jpg",
+      "SourceId": "Tuan4",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\",
+      "BasePath": "_content/Tuan4",
+      "RelativePath": "img/bg-img-2#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "us2xcwaipd",
+      "Integrity": "brhzG/ZI4YVh7+XCKMZaEMWQMVxMp6qvZ1sqeYXQNRQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\bg-img-2.jpg"
+    },
+    {
+      "Identity": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\img\\bg-img-3.jpg",
+      "SourceId": "Tuan4",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\",
+      "BasePath": "_content/Tuan4",
+      "RelativePath": "img/bg-img-3#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4dny8k1gxb",
+      "Integrity": "yJJ6BbYdcPMb845x75nF8zEdulhLt+UpHhlipRnvHS0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\bg-img-3.jpg"
+    },
+    {
+      "Identity": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\img\\img-01.jpg",
+      "SourceId": "Tuan4",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\",
+      "BasePath": "_content/Tuan4",
+      "RelativePath": "img/img-01#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "r2zs1s1k3q",
+      "Integrity": "k0H/dqCD3YNcvZjVoHldRYP4BX001Yv3MJuO16N2hkY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\img-01.jpg"
+    },
+    {
+      "Identity": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\img\\img-02.jpg",
+      "SourceId": "Tuan4",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\",
+      "BasePath": "_content/Tuan4",
+      "RelativePath": "img/img-02#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "tm8xnzpky5",
+      "Integrity": "9Rw1oDumE7Zr4KjOOUmpCXe3A2EonLgZxQRMogqijoE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\img-02.jpg"
+    },
+    {
+      "Identity": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\img\\img-03.jpg",
+      "SourceId": "Tuan4",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\",
+      "BasePath": "_content/Tuan4",
+      "RelativePath": "img/img-03#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "h3s7n1m8jz",
+      "Integrity": "/QQ6HuWvJl9rs8AaRj5ZsALyzxJA/b0qt46bzrg+CgM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\img-03.jpg"
+    },
+    {
+      "Identity": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\img\\img-04.jpg",
+      "SourceId": "Tuan4",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\",
+      "BasePath": "_content/Tuan4",
+      "RelativePath": "img/img-04#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "l02x72h6gn",
+      "Integrity": "dcdxv8u5PeAVaSHFe2w3WsY+BL7K89e6eiR4Pj1SLac=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\img-04.jpg"
+    },
+    {
+      "Identity": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\img\\img-05.jpg",
+      "SourceId": "Tuan4",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\",
+      "BasePath": "_content/Tuan4",
+      "RelativePath": "img/img-05#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "57hp99gyhg",
+      "Integrity": "r++Q3rdhxz+3dOrPFeEEA+FXw6Qwu3KjFdJZpSjxkpQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\img-05.jpg"
+    },
+    {
+      "Identity": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\img\\logo.png",
+      "SourceId": "Tuan4",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\",
+      "BasePath": "_content/Tuan4",
+      "RelativePath": "img/logo#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "my2wd4tctd",
+      "Integrity": "/mOfK/rZO9lf3b9IFh6c4ezD010IjQvz4bgOnvWU3gQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\logo.png"
+    },
+    {
+      "Identity": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\img\\Thumbs.db",
+      "SourceId": "Tuan4",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\",
+      "BasePath": "_content/Tuan4",
+      "RelativePath": "img/Thumbs#[.{fingerprint}]?.db",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "j8ok4amh0t",
+      "Integrity": "s0NRCfLOxD036RTAyOAd2LtLVc66H2YDl6SyKG7Y+og=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Thumbs.db"
+    },
+    {
+      "Identity": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\img\\tn-img-01.jpg",
+      "SourceId": "Tuan4",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\",
+      "BasePath": "_content/Tuan4",
+      "RelativePath": "img/tn-img-01#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ft6uaqnspy",
+      "Integrity": "/R9bFs2WPpbzVDFVtgbH7R/y/nXG7+uykE9hwAILVvg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\tn-img-01.jpg"
+    },
+    {
+      "Identity": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\img\\tn-img-02.jpg",
+      "SourceId": "Tuan4",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\",
+      "BasePath": "_content/Tuan4",
+      "RelativePath": "img/tn-img-02#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "lth5xfm85c",
+      "Integrity": "eabDUfoTKIUSOO6uGc+gp19c8C24mVfB9S54TFI78Fo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\tn-img-02.jpg"
+    },
+    {
+      "Identity": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\img\\tn-img-03.jpg",
+      "SourceId": "Tuan4",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\",
+      "BasePath": "_content/Tuan4",
+      "RelativePath": "img/tn-img-03#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5v9zkm5f7m",
+      "Integrity": "sdgjrrtnwlQaxSIXEjzFrETW9uXNBJQb1X4LNChCp54=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\tn-img-03.jpg"
+    },
+    {
+      "Identity": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\img\\tn-img-04.jpg",
+      "SourceId": "Tuan4",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\",
+      "BasePath": "_content/Tuan4",
+      "RelativePath": "img/tn-img-04#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "v08hk85py7",
+      "Integrity": "34ZPqmX/p81xTimz20lNvaXanfDbQIioik4Qny8AhNU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\tn-img-04.jpg"
+    },
+    {
+      "Identity": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\js\\bootstrap.min.js",
+      "SourceId": "Tuan4",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\",
+      "BasePath": "_content/Tuan4",
+      "RelativePath": "js/bootstrap.min#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "gu65snj5sv",
+      "Integrity": "GIa8Vh3sfESnVB2CN3rYGkD/MklvMq0lmITweQxE1qU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\bootstrap.min.js"
+    },
+    {
+      "Identity": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\js\\datepicker.min.js",
+      "SourceId": "Tuan4",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\",
+      "BasePath": "_content/Tuan4",
+      "RelativePath": "js/datepicker.min#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mul68mr8x9",
+      "Integrity": "HoSpxy8AW6IyHb/yklFG/y0prPhUvFaXXfijwjHQ/p8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\datepicker.min.js"
+    },
+    {
+      "Identity": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\js\\jquery.singlePageNav.min.js",
+      "SourceId": "Tuan4",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\",
+      "BasePath": "_content/Tuan4",
+      "RelativePath": "js/jquery.singlePageNav.min#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "jeloburiem",
+      "Integrity": "pSoo5SYo6BLexAb29fGXv+uLd0ZxGjuUTSYoDBBmo/o=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\jquery.singlePageNav.min.js"
+    },
+    {
+      "Identity": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\js\\jquery-1.11.3.min.js",
+      "SourceId": "Tuan4",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\",
+      "BasePath": "_content/Tuan4",
+      "RelativePath": "js/jquery-1.11.3.min#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "alrwg0i1qj",
+      "Integrity": "rsPUGdUPBXgalvIj4YKJrrUlmLXbOb6Cp7cdxn1qeUc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\jquery-1.11.3.min.js"
+    },
+    {
+      "Identity": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\js\\popper.min.js",
+      "SourceId": "Tuan4",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\",
+      "BasePath": "_content/Tuan4",
+      "RelativePath": "js/popper.min#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "trdx6ppnws",
+      "Integrity": "ByIUysJkIUj/gmaxjIL9xkQokyNp2oTewFYs8ByljTI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\popper.min.js"
+    },
+    {
+      "Identity": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\slick\\ajax-loader.gif",
+      "SourceId": "Tuan4",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\",
+      "BasePath": "_content/Tuan4",
+      "RelativePath": "slick/ajax-loader#[.{fingerprint}]?.gif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "fypy1n2a1i",
+      "Integrity": "57RMhrBQ/KdmqW3awtCTKvASbabyMFKANC2QkWjczms=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\slick\\ajax-loader.gif"
+    },
+    {
+      "Identity": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\slick\\config.rb",
+      "SourceId": "Tuan4",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\",
+      "BasePath": "_content/Tuan4",
+      "RelativePath": "slick/config#[.{fingerprint}]?.rb",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3tnqldhrvf",
+      "Integrity": "B1TTVlFu3R5n4BBQKQgfRTnSnNftsLIgRguv6H0WoeI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\slick\\config.rb"
+    },
+    {
+      "Identity": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\slick\\fonts\\slick.eot",
+      "SourceId": "Tuan4",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\",
+      "BasePath": "_content/Tuan4",
+      "RelativePath": "slick/fonts/slick#[.{fingerprint}]?.eot",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6tyrrxu1yi",
+      "Integrity": "BtgM8BJQEy/RBocBEIRT/u5ohUt1DSLDRP/A3jleHcs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\slick\\fonts\\slick.eot"
+    },
+    {
+      "Identity": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\slick\\fonts\\slick.svg",
+      "SourceId": "Tuan4",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\",
+      "BasePath": "_content/Tuan4",
+      "RelativePath": "slick/fonts/slick#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "m6wwoyv29g",
+      "Integrity": "EkWfIhoLeHvx6uvy5MSPyivZ+Ek/cSVsMEPnoMfpMvY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\slick\\fonts\\slick.svg"
+    },
+    {
+      "Identity": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\slick\\fonts\\slick.ttf",
+      "SourceId": "Tuan4",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\",
+      "BasePath": "_content/Tuan4",
+      "RelativePath": "slick/fonts/slick#[.{fingerprint}]?.ttf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9869s41upd",
+      "Integrity": "N7yZz9u8BGGTomOWeHN00A57ENOnWKNgRcB72IhjYNI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\slick\\fonts\\slick.ttf"
+    },
+    {
+      "Identity": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\slick\\fonts\\slick.woff",
+      "SourceId": "Tuan4",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\",
+      "BasePath": "_content/Tuan4",
+      "RelativePath": "slick/fonts/slick#[.{fingerprint}]?.woff",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mcq75vfguu",
+      "Integrity": "JnJrrEBgq7EibmzuvBM26Ekw/np68bOJWhCdBn9bXcw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\slick\\fonts\\slick.woff"
+    },
+    {
+      "Identity": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\slick\\slick.css",
+      "SourceId": "Tuan4",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\",
+      "BasePath": "_content/Tuan4",
+      "RelativePath": "slick/slick#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mmzakapvcy",
+      "Integrity": "3h45mwconzsKjTUULjY+EoEkoRhXcOIU4l5YAw2tSOU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\slick\\slick.css"
+    },
+    {
+      "Identity": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\slick\\slick.js",
+      "SourceId": "Tuan4",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\",
+      "BasePath": "_content/Tuan4",
+      "RelativePath": "slick/slick#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2s5q7tw0vi",
+      "Integrity": "PmW8Q241yyT0Agq+inGQbqU8ooTfhAldaCTif1WIP5A=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\slick\\slick.js"
+    },
+    {
+      "Identity": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\slick\\slick.less",
+      "SourceId": "Tuan4",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\",
+      "BasePath": "_content/Tuan4",
+      "RelativePath": "slick/slick#[.{fingerprint}]?.less",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "d5qu79z29x",
+      "Integrity": "4brxPPMzPPxUze/ntcp6G0uPkcr2iBN1+q7JAE//bYY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\slick\\slick.less"
+    },
+    {
+      "Identity": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\slick\\slick.min.js",
+      "SourceId": "Tuan4",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\",
+      "BasePath": "_content/Tuan4",
+      "RelativePath": "slick/slick.min#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8vxybdbzmv",
+      "Integrity": "DHF4zGyjT7GOMPBwpeehwoey18z8uiz98G4PRu2lV0A=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\slick\\slick.min.js"
+    },
+    {
+      "Identity": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\slick\\slick.scss",
+      "SourceId": "Tuan4",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\",
+      "BasePath": "_content/Tuan4",
+      "RelativePath": "slick/slick#[.{fingerprint}]?.scss",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "d5qu79z29x",
+      "Integrity": "4brxPPMzPPxUze/ntcp6G0uPkcr2iBN1+q7JAE//bYY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\slick\\slick.scss"
+    },
+    {
+      "Identity": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\slick\\slick-theme.css",
+      "SourceId": "Tuan4",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\",
+      "BasePath": "_content/Tuan4",
+      "RelativePath": "slick/slick-theme#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "qnvhv7zpqw",
+      "Integrity": "etrwgFLGpqD4oNAFW08ZH9Bzif5ByXK2lXNHKy7LQGo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\slick\\slick-theme.css"
+    },
+    {
+      "Identity": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\slick\\slick-theme.less",
+      "SourceId": "Tuan4",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\",
+      "BasePath": "_content/Tuan4",
+      "RelativePath": "slick/slick-theme#[.{fingerprint}]?.less",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "11dw6vy28p",
+      "Integrity": "9UtT878QKrsXm6fqT716GHzQfp6sscbYcJIk5XgsBLA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\slick\\slick-theme.less"
+    },
+    {
+      "Identity": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\slick\\slick-theme.scss",
+      "SourceId": "Tuan4",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\",
+      "BasePath": "_content/Tuan4",
+      "RelativePath": "slick/slick-theme#[.{fingerprint}]?.scss",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "cte84xm5rh",
+      "Integrity": "AEXtPVye9BR/1DcMoP4ixNEUKecBr51awm0pPQ2ujoY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\slick\\slick-theme.scss"
+    },
+    {
+      "Identity": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\videos\\video.mp4",
+      "SourceId": "Tuan4",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\",
+      "BasePath": "_content/Tuan4",
+      "RelativePath": "videos/video#[.{fingerprint}]?.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "dcaxp8o82n",
+      "Integrity": "Y/QonCEJOIGbp4nltlyh1JxTdoEBnSDPvzwPVQh5Pm4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\videos\\video.mp4"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "css/bootstrap.min.css",
+      "AssetFile": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\css\\bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "127343"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QUyqZrt5vIjBumoqQV0jM8CgGqscFfdGhN+nVCqX0vc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 09:41:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-QUyqZrt5vIjBumoqQV0jM8CgGqscFfdGhN+nVCqX0vc="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap.min.zneyh1yzco.css",
+      "AssetFile": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\css\\bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "127343"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QUyqZrt5vIjBumoqQV0jM8CgGqscFfdGhN+nVCqX0vc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 09:41:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zneyh1yzco"
+        },
+        {
+          "Name": "label",
+          "Value": "css/bootstrap.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-QUyqZrt5vIjBumoqQV0jM8CgGqscFfdGhN+nVCqX0vc="
+        }
+      ]
+    },
+    {
+      "Route": "css/datepicker.css",
+      "AssetFile": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\css\\datepicker.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4583"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nG1mdoqu8GZQBuEqtVOHOuKKziBkqsR4dBoY28cvlZk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 09:41:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-nG1mdoqu8GZQBuEqtVOHOuKKziBkqsR4dBoY28cvlZk="
+        }
+      ]
+    },
+    {
+      "Route": "css/datepicker.s0gi8xed5z.css",
+      "AssetFile": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\css\\datepicker.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4583"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nG1mdoqu8GZQBuEqtVOHOuKKziBkqsR4dBoY28cvlZk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 09:41:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "s0gi8xed5z"
+        },
+        {
+          "Name": "label",
+          "Value": "css/datepicker.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-nG1mdoqu8GZQBuEqtVOHOuKKziBkqsR4dBoY28cvlZk="
+        }
+      ]
+    },
+    {
+      "Route": "css/tooplate-style.6o5acu61re.css",
+      "AssetFile": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\css\\tooplate-style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13627"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Np+V986G01MvDG/s8uk35YPKI5HIs3+NcCROvsdQ3Qw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 09:41:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6o5acu61re"
+        },
+        {
+          "Name": "label",
+          "Value": "css/tooplate-style.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Np+V986G01MvDG/s8uk35YPKI5HIs3+NcCROvsdQ3Qw="
+        }
+      ]
+    },
+    {
+      "Route": "css/tooplate-style.css",
+      "AssetFile": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\css\\tooplate-style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13627"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Np+V986G01MvDG/s8uk35YPKI5HIs3+NcCROvsdQ3Qw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 09:41:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Np+V986G01MvDG/s8uk35YPKI5HIs3+NcCROvsdQ3Qw="
+        }
+      ]
+    },
+    {
+      "Route": "favicon.61n19gt1b8.ico",
+      "AssetFile": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\favicon.ico",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5430"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 09:41:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "61n19gt1b8"
+        },
+        {
+          "Name": "label",
+          "Value": "favicon.ico"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="
+        }
+      ]
+    },
+    {
+      "Route": "favicon.ico",
+      "AssetFile": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\favicon.ico",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5430"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 09:41:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="
+        }
+      ]
+    },
+    {
+      "Route": "font-awesome-4.7.0/css/font-awesome.css",
+      "AssetFile": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\font-awesome-4.7.0\\css\\font-awesome.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "37414"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NuCn4IvuZXdBaFKJOAcsU2Q3ZpwbdFisd5dux4jkQ5w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 09:41:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-NuCn4IvuZXdBaFKJOAcsU2Q3ZpwbdFisd5dux4jkQ5w="
+        }
+      ]
+    },
+    {
+      "Route": "font-awesome-4.7.0/css/font-awesome.min.css",
+      "AssetFile": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\font-awesome-4.7.0\\css\\font-awesome.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "31000"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 09:41:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0="
+        }
+      ]
+    },
+    {
+      "Route": "font-awesome-4.7.0/css/font-awesome.min.rf9f4pws8w.css",
+      "AssetFile": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\font-awesome-4.7.0\\css\\font-awesome.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "31000"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 09:41:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rf9f4pws8w"
+        },
+        {
+          "Name": "label",
+          "Value": "font-awesome-4.7.0/css/font-awesome.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0="
+        }
+      ]
+    },
+    {
+      "Route": "font-awesome-4.7.0/css/font-awesome.qj35fca2th.css",
+      "AssetFile": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\font-awesome-4.7.0\\css\\font-awesome.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "37414"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NuCn4IvuZXdBaFKJOAcsU2Q3ZpwbdFisd5dux4jkQ5w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 09:41:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qj35fca2th"
+        },
+        {
+          "Name": "label",
+          "Value": "font-awesome-4.7.0/css/font-awesome.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-NuCn4IvuZXdBaFKJOAcsU2Q3ZpwbdFisd5dux4jkQ5w="
+        }
+      ]
+    },
+    {
+      "Route": "font-awesome-4.7.0/fonts/FontAwesome.otf",
+      "AssetFile": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\font-awesome-4.7.0\\fonts\\FontAwesome.otf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "134808"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "font/otf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RE3UNmYV/8ShbQErL6kBNwZdPMtBD6b9Xk3de15P/NU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 09:41:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-RE3UNmYV/8ShbQErL6kBNwZdPMtBD6b9Xk3de15P/NU="
+        }
+      ]
+    },
+    {
+      "Route": "font-awesome-4.7.0/fonts/FontAwesome.sgabxu717i.otf",
+      "AssetFile": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\font-awesome-4.7.0\\fonts\\FontAwesome.otf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "134808"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "font/otf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RE3UNmYV/8ShbQErL6kBNwZdPMtBD6b9Xk3de15P/NU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 09:41:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "sgabxu717i"
+        },
+        {
+          "Name": "label",
+          "Value": "font-awesome-4.7.0/fonts/FontAwesome.otf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-RE3UNmYV/8ShbQErL6kBNwZdPMtBD6b9Xk3de15P/NU="
+        }
+      ]
+    },
+    {
+      "Route": "font-awesome-4.7.0/fonts/fontawesome-webfont.2hr3gl3r5x.woff2",
+      "AssetFile": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.woff2",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "77160"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "font/woff2"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Kt78vAQefRj88tQXh53FoJmXqmTWdbejxLbOM9oT8/4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 09:41:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2hr3gl3r5x"
+        },
+        {
+          "Name": "label",
+          "Value": "font-awesome-4.7.0/fonts/fontawesome-webfont.woff2"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Kt78vAQefRj88tQXh53FoJmXqmTWdbejxLbOM9oT8/4="
+        }
+      ]
+    },
+    {
+      "Route": "font-awesome-4.7.0/fonts/fontawesome-webfont.dosqy3kf6t.svg",
+      "AssetFile": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "444379"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rWFXkmwWIrpOHQPUePFUE2hSS/xG9R5C/g2UX37zI+Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 09:41:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dosqy3kf6t"
+        },
+        {
+          "Name": "label",
+          "Value": "font-awesome-4.7.0/fonts/fontawesome-webfont.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-rWFXkmwWIrpOHQPUePFUE2hSS/xG9R5C/g2UX37zI+Q="
+        }
+      ]
+    },
+    {
+      "Route": "font-awesome-4.7.0/fonts/fontawesome-webfont.eot",
+      "AssetFile": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.eot",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "165742"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.ms-fontobject"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"e/yrbbmdXPvxcFygU23ceFhUMsxfpBu9etDwCQM7KXk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 09:41:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-e/yrbbmdXPvxcFygU23ceFhUMsxfpBu9etDwCQM7KXk="
+        }
+      ]
+    },
+    {
+      "Route": "font-awesome-4.7.0/fonts/fontawesome-webfont.eyrbpue749.woff",
+      "AssetFile": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.woff",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "98024"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/font-woff"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ugxZ3rVFD1y0Gz+TYJ7i0NmVQVh33foiPoqKdTNHTwc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 09:41:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "eyrbpue749"
+        },
+        {
+          "Name": "label",
+          "Value": "font-awesome-4.7.0/fonts/fontawesome-webfont.woff"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ugxZ3rVFD1y0Gz+TYJ7i0NmVQVh33foiPoqKdTNHTwc="
+        }
+      ]
+    },
+    {
+      "Route": "font-awesome-4.7.0/fonts/fontawesome-webfont.pz0qgnv39v.eot",
+      "AssetFile": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.eot",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "165742"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.ms-fontobject"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"e/yrbbmdXPvxcFygU23ceFhUMsxfpBu9etDwCQM7KXk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 09:41:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pz0qgnv39v"
+        },
+        {
+          "Name": "label",
+          "Value": "font-awesome-4.7.0/fonts/fontawesome-webfont.eot"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-e/yrbbmdXPvxcFygU23ceFhUMsxfpBu9etDwCQM7KXk="
+        }
+      ]
+    },
+    {
+      "Route": "font-awesome-4.7.0/fonts/fontawesome-webfont.svg",
+      "AssetFile": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "444379"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rWFXkmwWIrpOHQPUePFUE2hSS/xG9R5C/g2UX37zI+Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 09:41:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rWFXkmwWIrpOHQPUePFUE2hSS/xG9R5C/g2UX37zI+Q="
+        }
+      ]
+    },
+    {
+      "Route": "font-awesome-4.7.0/fonts/fontawesome-webfont.ttf",
+      "AssetFile": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "165548"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qljzPyOaD7AvXHpsRcBD16msmgkzNYBmlOzW1O3A1qg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 09:41:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qljzPyOaD7AvXHpsRcBD16msmgkzNYBmlOzW1O3A1qg="
+        }
+      ]
+    },
+    {
+      "Route": "font-awesome-4.7.0/fonts/fontawesome-webfont.woff",
+      "AssetFile": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.woff",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "98024"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/font-woff"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ugxZ3rVFD1y0Gz+TYJ7i0NmVQVh33foiPoqKdTNHTwc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 09:41:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ugxZ3rVFD1y0Gz+TYJ7i0NmVQVh33foiPoqKdTNHTwc="
+        }
+      ]
+    },
+    {
+      "Route": "font-awesome-4.7.0/fonts/fontawesome-webfont.woff2",
+      "AssetFile": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.woff2",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "77160"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "font/woff2"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Kt78vAQefRj88tQXh53FoJmXqmTWdbejxLbOM9oT8/4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 09:41:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Kt78vAQefRj88tQXh53FoJmXqmTWdbejxLbOM9oT8/4="
+        }
+      ]
+    },
+    {
+      "Route": "font-awesome-4.7.0/fonts/fontawesome-webfont.yex6mt8az7.ttf",
+      "AssetFile": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "165548"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qljzPyOaD7AvXHpsRcBD16msmgkzNYBmlOzW1O3A1qg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 09:41:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "yex6mt8az7"
+        },
+        {
+          "Name": "label",
+          "Value": "font-awesome-4.7.0/fonts/fontawesome-webfont.ttf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-qljzPyOaD7AvXHpsRcBD16msmgkzNYBmlOzW1O3A1qg="
+        }
+      ]
+    },
+    {
+      "Route": "font-awesome-4.7.0/HELP-US-OUT.865w2kgh1e.txt",
+      "AssetFile": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\font-awesome-4.7.0\\HELP-US-OUT.txt",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "323"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MDTrsPfEKJZkj1MD40mc19/k2wEPlXj/RftCryiE7Ws=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 09:41:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "865w2kgh1e"
+        },
+        {
+          "Name": "label",
+          "Value": "font-awesome-4.7.0/HELP-US-OUT.txt"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-MDTrsPfEKJZkj1MD40mc19/k2wEPlXj/RftCryiE7Ws="
+        }
+      ]
+    },
+    {
+      "Route": "font-awesome-4.7.0/HELP-US-OUT.txt",
+      "AssetFile": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\font-awesome-4.7.0\\HELP-US-OUT.txt",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "323"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MDTrsPfEKJZkj1MD40mc19/k2wEPlXj/RftCryiE7Ws=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 09:41:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-MDTrsPfEKJZkj1MD40mc19/k2wEPlXj/RftCryiE7Ws="
+        }
+      ]
+    },
+    {
+      "Route": "img/bg-img-1.jpg",
+      "AssetFile": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\img\\bg-img-1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "88597"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PfYzOvq7pNVB8VUPRQCkwlxCDsmjwFabAI59XWwsuqo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 09:41:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-PfYzOvq7pNVB8VUPRQCkwlxCDsmjwFabAI59XWwsuqo="
+        }
+      ]
+    },
+    {
+      "Route": "img/bg-img-1.t06n41tylx.jpg",
+      "AssetFile": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\img\\bg-img-1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "88597"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PfYzOvq7pNVB8VUPRQCkwlxCDsmjwFabAI59XWwsuqo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 09:41:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "t06n41tylx"
+        },
+        {
+          "Name": "label",
+          "Value": "img/bg-img-1.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-PfYzOvq7pNVB8VUPRQCkwlxCDsmjwFabAI59XWwsuqo="
+        }
+      ]
+    },
+    {
+      "Route": "img/bg-img-2.jpg",
+      "AssetFile": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\img\\bg-img-2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "34009"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"brhzG/ZI4YVh7+XCKMZaEMWQMVxMp6qvZ1sqeYXQNRQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 09:41:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-brhzG/ZI4YVh7+XCKMZaEMWQMVxMp6qvZ1sqeYXQNRQ="
+        }
+      ]
+    },
+    {
+      "Route": "img/bg-img-2.us2xcwaipd.jpg",
+      "AssetFile": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\img\\bg-img-2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "34009"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"brhzG/ZI4YVh7+XCKMZaEMWQMVxMp6qvZ1sqeYXQNRQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 09:41:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "us2xcwaipd"
+        },
+        {
+          "Name": "label",
+          "Value": "img/bg-img-2.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-brhzG/ZI4YVh7+XCKMZaEMWQMVxMp6qvZ1sqeYXQNRQ="
+        }
+      ]
+    },
+    {
+      "Route": "img/bg-img-3.4dny8k1gxb.jpg",
+      "AssetFile": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\img\\bg-img-3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62060"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yJJ6BbYdcPMb845x75nF8zEdulhLt+UpHhlipRnvHS0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 09:41:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4dny8k1gxb"
+        },
+        {
+          "Name": "label",
+          "Value": "img/bg-img-3.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-yJJ6BbYdcPMb845x75nF8zEdulhLt+UpHhlipRnvHS0="
+        }
+      ]
+    },
+    {
+      "Route": "img/bg-img-3.jpg",
+      "AssetFile": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\img\\bg-img-3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62060"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yJJ6BbYdcPMb845x75nF8zEdulhLt+UpHhlipRnvHS0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 09:41:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-yJJ6BbYdcPMb845x75nF8zEdulhLt+UpHhlipRnvHS0="
+        }
+      ]
+    },
+    {
+      "Route": "img/img-01.jpg",
+      "AssetFile": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\img\\img-01.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "55778"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"k0H/dqCD3YNcvZjVoHldRYP4BX001Yv3MJuO16N2hkY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 09:41:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-k0H/dqCD3YNcvZjVoHldRYP4BX001Yv3MJuO16N2hkY="
+        }
+      ]
+    },
+    {
+      "Route": "img/img-01.r2zs1s1k3q.jpg",
+      "AssetFile": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\img\\img-01.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "55778"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"k0H/dqCD3YNcvZjVoHldRYP4BX001Yv3MJuO16N2hkY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 09:41:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "r2zs1s1k3q"
+        },
+        {
+          "Name": "label",
+          "Value": "img/img-01.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-k0H/dqCD3YNcvZjVoHldRYP4BX001Yv3MJuO16N2hkY="
+        }
+      ]
+    },
+    {
+      "Route": "img/img-02.jpg",
+      "AssetFile": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\img\\img-02.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "56313"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9Rw1oDumE7Zr4KjOOUmpCXe3A2EonLgZxQRMogqijoE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 09:41:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9Rw1oDumE7Zr4KjOOUmpCXe3A2EonLgZxQRMogqijoE="
+        }
+      ]
+    },
+    {
+      "Route": "img/img-02.tm8xnzpky5.jpg",
+      "AssetFile": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\img\\img-02.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "56313"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9Rw1oDumE7Zr4KjOOUmpCXe3A2EonLgZxQRMogqijoE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 09:41:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tm8xnzpky5"
+        },
+        {
+          "Name": "label",
+          "Value": "img/img-02.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9Rw1oDumE7Zr4KjOOUmpCXe3A2EonLgZxQRMogqijoE="
+        }
+      ]
+    },
+    {
+      "Route": "img/img-03.h3s7n1m8jz.jpg",
+      "AssetFile": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\img\\img-03.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "26610"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/QQ6HuWvJl9rs8AaRj5ZsALyzxJA/b0qt46bzrg+CgM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 09:41:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "h3s7n1m8jz"
+        },
+        {
+          "Name": "label",
+          "Value": "img/img-03.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/QQ6HuWvJl9rs8AaRj5ZsALyzxJA/b0qt46bzrg+CgM="
+        }
+      ]
+    },
+    {
+      "Route": "img/img-03.jpg",
+      "AssetFile": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\img\\img-03.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "26610"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/QQ6HuWvJl9rs8AaRj5ZsALyzxJA/b0qt46bzrg+CgM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 09:41:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/QQ6HuWvJl9rs8AaRj5ZsALyzxJA/b0qt46bzrg+CgM="
+        }
+      ]
+    },
+    {
+      "Route": "img/img-04.jpg",
+      "AssetFile": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\img\\img-04.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23392"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dcdxv8u5PeAVaSHFe2w3WsY+BL7K89e6eiR4Pj1SLac=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 09:41:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-dcdxv8u5PeAVaSHFe2w3WsY+BL7K89e6eiR4Pj1SLac="
+        }
+      ]
+    },
+    {
+      "Route": "img/img-04.l02x72h6gn.jpg",
+      "AssetFile": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\img\\img-04.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23392"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dcdxv8u5PeAVaSHFe2w3WsY+BL7K89e6eiR4Pj1SLac=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 09:41:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "l02x72h6gn"
+        },
+        {
+          "Name": "label",
+          "Value": "img/img-04.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-dcdxv8u5PeAVaSHFe2w3WsY+BL7K89e6eiR4Pj1SLac="
+        }
+      ]
+    },
+    {
+      "Route": "img/img-05.57hp99gyhg.jpg",
+      "AssetFile": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\img\\img-05.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13927"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"r++Q3rdhxz+3dOrPFeEEA+FXw6Qwu3KjFdJZpSjxkpQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 09:41:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "57hp99gyhg"
+        },
+        {
+          "Name": "label",
+          "Value": "img/img-05.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-r++Q3rdhxz+3dOrPFeEEA+FXw6Qwu3KjFdJZpSjxkpQ="
+        }
+      ]
+    },
+    {
+      "Route": "img/img-05.jpg",
+      "AssetFile": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\img\\img-05.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13927"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"r++Q3rdhxz+3dOrPFeEEA+FXw6Qwu3KjFdJZpSjxkpQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 09:41:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-r++Q3rdhxz+3dOrPFeEEA+FXw6Qwu3KjFdJZpSjxkpQ="
+        }
+      ]
+    },
+    {
+      "Route": "img/logo.my2wd4tctd.png",
+      "AssetFile": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\img\\logo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2874"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/mOfK/rZO9lf3b9IFh6c4ezD010IjQvz4bgOnvWU3gQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 09:41:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "my2wd4tctd"
+        },
+        {
+          "Name": "label",
+          "Value": "img/logo.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/mOfK/rZO9lf3b9IFh6c4ezD010IjQvz4bgOnvWU3gQ="
+        }
+      ]
+    },
+    {
+      "Route": "img/logo.png",
+      "AssetFile": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\img\\logo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2874"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/mOfK/rZO9lf3b9IFh6c4ezD010IjQvz4bgOnvWU3gQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 09:41:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/mOfK/rZO9lf3b9IFh6c4ezD010IjQvz4bgOnvWU3gQ="
+        }
+      ]
+    },
+    {
+      "Route": "img/Thumbs.db",
+      "AssetFile": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\img\\Thumbs.db",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15360"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"s0NRCfLOxD036RTAyOAd2LtLVc66H2YDl6SyKG7Y+og=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 09:41:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-s0NRCfLOxD036RTAyOAd2LtLVc66H2YDl6SyKG7Y+og="
+        }
+      ]
+    },
+    {
+      "Route": "img/Thumbs.j8ok4amh0t.db",
+      "AssetFile": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\img\\Thumbs.db",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15360"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"s0NRCfLOxD036RTAyOAd2LtLVc66H2YDl6SyKG7Y+og=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 09:41:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "j8ok4amh0t"
+        },
+        {
+          "Name": "label",
+          "Value": "img/Thumbs.db"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-s0NRCfLOxD036RTAyOAd2LtLVc66H2YDl6SyKG7Y+og="
+        }
+      ]
+    },
+    {
+      "Route": "img/tn-img-01.ft6uaqnspy.jpg",
+      "AssetFile": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\img\\tn-img-01.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7880"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/R9bFs2WPpbzVDFVtgbH7R/y/nXG7+uykE9hwAILVvg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 09:41:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ft6uaqnspy"
+        },
+        {
+          "Name": "label",
+          "Value": "img/tn-img-01.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/R9bFs2WPpbzVDFVtgbH7R/y/nXG7+uykE9hwAILVvg="
+        }
+      ]
+    },
+    {
+      "Route": "img/tn-img-01.jpg",
+      "AssetFile": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\img\\tn-img-01.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7880"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/R9bFs2WPpbzVDFVtgbH7R/y/nXG7+uykE9hwAILVvg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 09:41:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/R9bFs2WPpbzVDFVtgbH7R/y/nXG7+uykE9hwAILVvg="
+        }
+      ]
+    },
+    {
+      "Route": "img/tn-img-02.jpg",
+      "AssetFile": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\img\\tn-img-02.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8475"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eabDUfoTKIUSOO6uGc+gp19c8C24mVfB9S54TFI78Fo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 09:41:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-eabDUfoTKIUSOO6uGc+gp19c8C24mVfB9S54TFI78Fo="
+        }
+      ]
+    },
+    {
+      "Route": "img/tn-img-02.lth5xfm85c.jpg",
+      "AssetFile": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\img\\tn-img-02.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8475"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eabDUfoTKIUSOO6uGc+gp19c8C24mVfB9S54TFI78Fo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 09:41:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lth5xfm85c"
+        },
+        {
+          "Name": "label",
+          "Value": "img/tn-img-02.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-eabDUfoTKIUSOO6uGc+gp19c8C24mVfB9S54TFI78Fo="
+        }
+      ]
+    },
+    {
+      "Route": "img/tn-img-03.5v9zkm5f7m.jpg",
+      "AssetFile": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\img\\tn-img-03.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7463"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sdgjrrtnwlQaxSIXEjzFrETW9uXNBJQb1X4LNChCp54=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 09:41:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5v9zkm5f7m"
+        },
+        {
+          "Name": "label",
+          "Value": "img/tn-img-03.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-sdgjrrtnwlQaxSIXEjzFrETW9uXNBJQb1X4LNChCp54="
+        }
+      ]
+    },
+    {
+      "Route": "img/tn-img-03.jpg",
+      "AssetFile": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\img\\tn-img-03.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7463"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sdgjrrtnwlQaxSIXEjzFrETW9uXNBJQb1X4LNChCp54=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 09:41:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-sdgjrrtnwlQaxSIXEjzFrETW9uXNBJQb1X4LNChCp54="
+        }
+      ]
+    },
+    {
+      "Route": "img/tn-img-04.jpg",
+      "AssetFile": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\img\\tn-img-04.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8917"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"34ZPqmX/p81xTimz20lNvaXanfDbQIioik4Qny8AhNU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 09:41:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-34ZPqmX/p81xTimz20lNvaXanfDbQIioik4Qny8AhNU="
+        }
+      ]
+    },
+    {
+      "Route": "img/tn-img-04.v08hk85py7.jpg",
+      "AssetFile": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\img\\tn-img-04.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8917"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"34ZPqmX/p81xTimz20lNvaXanfDbQIioik4Qny8AhNU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 09:41:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "v08hk85py7"
+        },
+        {
+          "Name": "label",
+          "Value": "img/tn-img-04.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-34ZPqmX/p81xTimz20lNvaXanfDbQIioik4Qny8AhNU="
+        }
+      ]
+    },
+    {
+      "Route": "js/bootstrap.min.gu65snj5sv.js",
+      "AssetFile": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\js\\bootstrap.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "50564"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GIa8Vh3sfESnVB2CN3rYGkD/MklvMq0lmITweQxE1qU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 09:41:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gu65snj5sv"
+        },
+        {
+          "Name": "label",
+          "Value": "js/bootstrap.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-GIa8Vh3sfESnVB2CN3rYGkD/MklvMq0lmITweQxE1qU="
+        }
+      ]
+    },
+    {
+      "Route": "js/bootstrap.min.js",
+      "AssetFile": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\js\\bootstrap.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "50564"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GIa8Vh3sfESnVB2CN3rYGkD/MklvMq0lmITweQxE1qU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 09:41:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-GIa8Vh3sfESnVB2CN3rYGkD/MklvMq0lmITweQxE1qU="
+        }
+      ]
+    },
+    {
+      "Route": "js/datepicker.min.js",
+      "AssetFile": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\js\\datepicker.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8468"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HoSpxy8AW6IyHb/yklFG/y0prPhUvFaXXfijwjHQ/p8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 09:41:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-HoSpxy8AW6IyHb/yklFG/y0prPhUvFaXXfijwjHQ/p8="
+        }
+      ]
+    },
+    {
+      "Route": "js/datepicker.min.mul68mr8x9.js",
+      "AssetFile": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\js\\datepicker.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8468"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HoSpxy8AW6IyHb/yklFG/y0prPhUvFaXXfijwjHQ/p8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 09:41:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mul68mr8x9"
+        },
+        {
+          "Name": "label",
+          "Value": "js/datepicker.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-HoSpxy8AW6IyHb/yklFG/y0prPhUvFaXXfijwjHQ/p8="
+        }
+      ]
+    },
+    {
+      "Route": "js/jquery.singlePageNav.min.jeloburiem.js",
+      "AssetFile": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\js\\jquery.singlePageNav.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2611"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pSoo5SYo6BLexAb29fGXv+uLd0ZxGjuUTSYoDBBmo/o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 09:41:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jeloburiem"
+        },
+        {
+          "Name": "label",
+          "Value": "js/jquery.singlePageNav.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-pSoo5SYo6BLexAb29fGXv+uLd0ZxGjuUTSYoDBBmo/o="
+        }
+      ]
+    },
+    {
+      "Route": "js/jquery.singlePageNav.min.js",
+      "AssetFile": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\js\\jquery.singlePageNav.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2611"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pSoo5SYo6BLexAb29fGXv+uLd0ZxGjuUTSYoDBBmo/o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 09:41:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-pSoo5SYo6BLexAb29fGXv+uLd0ZxGjuUTSYoDBBmo/o="
+        }
+      ]
+    },
+    {
+      "Route": "js/jquery-1.11.3.min.alrwg0i1qj.js",
+      "AssetFile": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\js\\jquery-1.11.3.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "95992"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rsPUGdUPBXgalvIj4YKJrrUlmLXbOb6Cp7cdxn1qeUc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 09:41:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "alrwg0i1qj"
+        },
+        {
+          "Name": "label",
+          "Value": "js/jquery-1.11.3.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-rsPUGdUPBXgalvIj4YKJrrUlmLXbOb6Cp7cdxn1qeUc="
+        }
+      ]
+    },
+    {
+      "Route": "js/jquery-1.11.3.min.js",
+      "AssetFile": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\js\\jquery-1.11.3.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "95992"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rsPUGdUPBXgalvIj4YKJrrUlmLXbOb6Cp7cdxn1qeUc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 09:41:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rsPUGdUPBXgalvIj4YKJrrUlmLXbOb6Cp7cdxn1qeUc="
+        }
+      ]
+    },
+    {
+      "Route": "js/popper.min.js",
+      "AssetFile": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\js\\popper.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "19032"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ByIUysJkIUj/gmaxjIL9xkQokyNp2oTewFYs8ByljTI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 09:41:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ByIUysJkIUj/gmaxjIL9xkQokyNp2oTewFYs8ByljTI="
+        }
+      ]
+    },
+    {
+      "Route": "js/popper.min.trdx6ppnws.js",
+      "AssetFile": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\js\\popper.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "19032"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ByIUysJkIUj/gmaxjIL9xkQokyNp2oTewFYs8ByljTI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 09:41:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "trdx6ppnws"
+        },
+        {
+          "Name": "label",
+          "Value": "js/popper.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ByIUysJkIUj/gmaxjIL9xkQokyNp2oTewFYs8ByljTI="
+        }
+      ]
+    },
+    {
+      "Route": "slick/ajax-loader.fypy1n2a1i.gif",
+      "AssetFile": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\slick\\ajax-loader.gif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4178"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/gif"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"57RMhrBQ/KdmqW3awtCTKvASbabyMFKANC2QkWjczms=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 09:41:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fypy1n2a1i"
+        },
+        {
+          "Name": "label",
+          "Value": "slick/ajax-loader.gif"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-57RMhrBQ/KdmqW3awtCTKvASbabyMFKANC2QkWjczms="
+        }
+      ]
+    },
+    {
+      "Route": "slick/ajax-loader.gif",
+      "AssetFile": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\slick\\ajax-loader.gif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4178"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/gif"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"57RMhrBQ/KdmqW3awtCTKvASbabyMFKANC2QkWjczms=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 09:41:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-57RMhrBQ/KdmqW3awtCTKvASbabyMFKANC2QkWjczms="
+        }
+      ]
+    },
+    {
+      "Route": "slick/config.3tnqldhrvf.rb",
+      "AssetFile": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\slick\\config.rb",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "161"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"B1TTVlFu3R5n4BBQKQgfRTnSnNftsLIgRguv6H0WoeI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 09:41:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3tnqldhrvf"
+        },
+        {
+          "Name": "label",
+          "Value": "slick/config.rb"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-B1TTVlFu3R5n4BBQKQgfRTnSnNftsLIgRguv6H0WoeI="
+        }
+      ]
+    },
+    {
+      "Route": "slick/config.rb",
+      "AssetFile": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\slick\\config.rb",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "161"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"B1TTVlFu3R5n4BBQKQgfRTnSnNftsLIgRguv6H0WoeI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 09:41:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-B1TTVlFu3R5n4BBQKQgfRTnSnNftsLIgRguv6H0WoeI="
+        }
+      ]
+    },
+    {
+      "Route": "slick/fonts/slick.6tyrrxu1yi.eot",
+      "AssetFile": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\slick\\fonts\\slick.eot",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2048"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.ms-fontobject"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BtgM8BJQEy/RBocBEIRT/u5ohUt1DSLDRP/A3jleHcs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 09:41:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6tyrrxu1yi"
+        },
+        {
+          "Name": "label",
+          "Value": "slick/fonts/slick.eot"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-BtgM8BJQEy/RBocBEIRT/u5ohUt1DSLDRP/A3jleHcs="
+        }
+      ]
+    },
+    {
+      "Route": "slick/fonts/slick.9869s41upd.ttf",
+      "AssetFile": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\slick\\fonts\\slick.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1892"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"N7yZz9u8BGGTomOWeHN00A57ENOnWKNgRcB72IhjYNI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 09:41:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9869s41upd"
+        },
+        {
+          "Name": "label",
+          "Value": "slick/fonts/slick.ttf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-N7yZz9u8BGGTomOWeHN00A57ENOnWKNgRcB72IhjYNI="
+        }
+      ]
+    },
+    {
+      "Route": "slick/fonts/slick.eot",
+      "AssetFile": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\slick\\fonts\\slick.eot",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2048"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.ms-fontobject"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BtgM8BJQEy/RBocBEIRT/u5ohUt1DSLDRP/A3jleHcs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 09:41:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-BtgM8BJQEy/RBocBEIRT/u5ohUt1DSLDRP/A3jleHcs="
+        }
+      ]
+    },
+    {
+      "Route": "slick/fonts/slick.m6wwoyv29g.svg",
+      "AssetFile": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\slick\\fonts\\slick.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2152"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EkWfIhoLeHvx6uvy5MSPyivZ+Ek/cSVsMEPnoMfpMvY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 09:41:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "m6wwoyv29g"
+        },
+        {
+          "Name": "label",
+          "Value": "slick/fonts/slick.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-EkWfIhoLeHvx6uvy5MSPyivZ+Ek/cSVsMEPnoMfpMvY="
+        }
+      ]
+    },
+    {
+      "Route": "slick/fonts/slick.mcq75vfguu.woff",
+      "AssetFile": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\slick\\fonts\\slick.woff",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1380"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/font-woff"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JnJrrEBgq7EibmzuvBM26Ekw/np68bOJWhCdBn9bXcw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 09:41:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mcq75vfguu"
+        },
+        {
+          "Name": "label",
+          "Value": "slick/fonts/slick.woff"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JnJrrEBgq7EibmzuvBM26Ekw/np68bOJWhCdBn9bXcw="
+        }
+      ]
+    },
+    {
+      "Route": "slick/fonts/slick.svg",
+      "AssetFile": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\slick\\fonts\\slick.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2152"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EkWfIhoLeHvx6uvy5MSPyivZ+Ek/cSVsMEPnoMfpMvY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 09:41:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-EkWfIhoLeHvx6uvy5MSPyivZ+Ek/cSVsMEPnoMfpMvY="
+        }
+      ]
+    },
+    {
+      "Route": "slick/fonts/slick.ttf",
+      "AssetFile": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\slick\\fonts\\slick.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1892"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"N7yZz9u8BGGTomOWeHN00A57ENOnWKNgRcB72IhjYNI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 09:41:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-N7yZz9u8BGGTomOWeHN00A57ENOnWKNgRcB72IhjYNI="
+        }
+      ]
+    },
+    {
+      "Route": "slick/fonts/slick.woff",
+      "AssetFile": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\slick\\fonts\\slick.woff",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1380"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/font-woff"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JnJrrEBgq7EibmzuvBM26Ekw/np68bOJWhCdBn9bXcw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 09:41:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JnJrrEBgq7EibmzuvBM26Ekw/np68bOJWhCdBn9bXcw="
+        }
+      ]
+    },
+    {
+      "Route": "slick/slick.2s5q7tw0vi.js",
+      "AssetFile": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\slick\\slick.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "88454"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PmW8Q241yyT0Agq+inGQbqU8ooTfhAldaCTif1WIP5A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 09:41:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2s5q7tw0vi"
+        },
+        {
+          "Name": "label",
+          "Value": "slick/slick.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-PmW8Q241yyT0Agq+inGQbqU8ooTfhAldaCTif1WIP5A="
+        }
+      ]
+    },
+    {
+      "Route": "slick/slick.css",
+      "AssetFile": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\slick\\slick.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1776"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3h45mwconzsKjTUULjY+EoEkoRhXcOIU4l5YAw2tSOU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 09:41:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3h45mwconzsKjTUULjY+EoEkoRhXcOIU4l5YAw2tSOU="
+        }
+      ]
+    },
+    {
+      "Route": "slick/slick.d5qu79z29x.less",
+      "AssetFile": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\slick\\slick.less",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1756"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4brxPPMzPPxUze/ntcp6G0uPkcr2iBN1+q7JAE//bYY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 09:41:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "d5qu79z29x"
+        },
+        {
+          "Name": "label",
+          "Value": "slick/slick.less"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4brxPPMzPPxUze/ntcp6G0uPkcr2iBN1+q7JAE//bYY="
+        }
+      ]
+    },
+    {
+      "Route": "slick/slick.d5qu79z29x.scss",
+      "AssetFile": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\slick\\slick.scss",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1756"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4brxPPMzPPxUze/ntcp6G0uPkcr2iBN1+q7JAE//bYY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 09:41:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "d5qu79z29x"
+        },
+        {
+          "Name": "label",
+          "Value": "slick/slick.scss"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4brxPPMzPPxUze/ntcp6G0uPkcr2iBN1+q7JAE//bYY="
+        }
+      ]
+    },
+    {
+      "Route": "slick/slick.js",
+      "AssetFile": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\slick\\slick.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "88454"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PmW8Q241yyT0Agq+inGQbqU8ooTfhAldaCTif1WIP5A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 09:41:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-PmW8Q241yyT0Agq+inGQbqU8ooTfhAldaCTif1WIP5A="
+        }
+      ]
+    },
+    {
+      "Route": "slick/slick.less",
+      "AssetFile": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\slick\\slick.less",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1756"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4brxPPMzPPxUze/ntcp6G0uPkcr2iBN1+q7JAE//bYY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 09:41:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4brxPPMzPPxUze/ntcp6G0uPkcr2iBN1+q7JAE//bYY="
+        }
+      ]
+    },
+    {
+      "Route": "slick/slick.min.8vxybdbzmv.js",
+      "AssetFile": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\slick\\slick.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "42863"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DHF4zGyjT7GOMPBwpeehwoey18z8uiz98G4PRu2lV0A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 09:41:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8vxybdbzmv"
+        },
+        {
+          "Name": "label",
+          "Value": "slick/slick.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-DHF4zGyjT7GOMPBwpeehwoey18z8uiz98G4PRu2lV0A="
+        }
+      ]
+    },
+    {
+      "Route": "slick/slick.min.js",
+      "AssetFile": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\slick\\slick.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "42863"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DHF4zGyjT7GOMPBwpeehwoey18z8uiz98G4PRu2lV0A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 09:41:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-DHF4zGyjT7GOMPBwpeehwoey18z8uiz98G4PRu2lV0A="
+        }
+      ]
+    },
+    {
+      "Route": "slick/slick.mmzakapvcy.css",
+      "AssetFile": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\slick\\slick.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1776"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3h45mwconzsKjTUULjY+EoEkoRhXcOIU4l5YAw2tSOU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 09:41:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mmzakapvcy"
+        },
+        {
+          "Name": "label",
+          "Value": "slick/slick.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3h45mwconzsKjTUULjY+EoEkoRhXcOIU4l5YAw2tSOU="
+        }
+      ]
+    },
+    {
+      "Route": "slick/slick.scss",
+      "AssetFile": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\slick\\slick.scss",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1756"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4brxPPMzPPxUze/ntcp6G0uPkcr2iBN1+q7JAE//bYY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 09:41:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4brxPPMzPPxUze/ntcp6G0uPkcr2iBN1+q7JAE//bYY="
+        }
+      ]
+    },
+    {
+      "Route": "slick/slick-theme.11dw6vy28p.less",
+      "AssetFile": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\slick\\slick-theme.less",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4181"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9UtT878QKrsXm6fqT716GHzQfp6sscbYcJIk5XgsBLA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 09:41:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "11dw6vy28p"
+        },
+        {
+          "Name": "label",
+          "Value": "slick/slick-theme.less"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9UtT878QKrsXm6fqT716GHzQfp6sscbYcJIk5XgsBLA="
+        }
+      ]
+    },
+    {
+      "Route": "slick/slick-theme.css",
+      "AssetFile": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\slick\\slick-theme.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3145"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"etrwgFLGpqD4oNAFW08ZH9Bzif5ByXK2lXNHKy7LQGo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 09:41:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-etrwgFLGpqD4oNAFW08ZH9Bzif5ByXK2lXNHKy7LQGo="
+        }
+      ]
+    },
+    {
+      "Route": "slick/slick-theme.cte84xm5rh.scss",
+      "AssetFile": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\slick\\slick-theme.scss",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4758"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AEXtPVye9BR/1DcMoP4ixNEUKecBr51awm0pPQ2ujoY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 09:41:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cte84xm5rh"
+        },
+        {
+          "Name": "label",
+          "Value": "slick/slick-theme.scss"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-AEXtPVye9BR/1DcMoP4ixNEUKecBr51awm0pPQ2ujoY="
+        }
+      ]
+    },
+    {
+      "Route": "slick/slick-theme.less",
+      "AssetFile": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\slick\\slick-theme.less",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4181"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9UtT878QKrsXm6fqT716GHzQfp6sscbYcJIk5XgsBLA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 09:41:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9UtT878QKrsXm6fqT716GHzQfp6sscbYcJIk5XgsBLA="
+        }
+      ]
+    },
+    {
+      "Route": "slick/slick-theme.qnvhv7zpqw.css",
+      "AssetFile": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\slick\\slick-theme.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3145"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"etrwgFLGpqD4oNAFW08ZH9Bzif5ByXK2lXNHKy7LQGo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 09:41:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qnvhv7zpqw"
+        },
+        {
+          "Name": "label",
+          "Value": "slick/slick-theme.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-etrwgFLGpqD4oNAFW08ZH9Bzif5ByXK2lXNHKy7LQGo="
+        }
+      ]
+    },
+    {
+      "Route": "slick/slick-theme.scss",
+      "AssetFile": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\slick\\slick-theme.scss",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4758"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AEXtPVye9BR/1DcMoP4ixNEUKecBr51awm0pPQ2ujoY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 09:41:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-AEXtPVye9BR/1DcMoP4ixNEUKecBr51awm0pPQ2ujoY="
+        }
+      ]
+    },
+    {
+      "Route": "Tuan4.bundle.scp.css",
+      "AssetFile": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Tuan4.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1123"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DuSjF3oKdMx5R83oYTXtw6+vAjUcw1EQRfH6Kvwv1aY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 09:44:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-DuSjF3oKdMx5R83oYTXtw6+vAjUcw1EQRfH6Kvwv1aY="
+        }
+      ]
+    },
+    {
+      "Route": "Tuan4.qdehhsuoom.bundle.scp.css",
+      "AssetFile": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Tuan4.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1123"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DuSjF3oKdMx5R83oYTXtw6+vAjUcw1EQRfH6Kvwv1aY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 09:44:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qdehhsuoom"
+        },
+        {
+          "Name": "label",
+          "Value": "Tuan4.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-DuSjF3oKdMx5R83oYTXtw6+vAjUcw1EQRfH6Kvwv1aY="
+        }
+      ]
+    },
+    {
+      "Route": "Tuan4.qdehhsuoom.styles.css",
+      "AssetFile": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Tuan4.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1123"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DuSjF3oKdMx5R83oYTXtw6+vAjUcw1EQRfH6Kvwv1aY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 09:44:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qdehhsuoom"
+        },
+        {
+          "Name": "label",
+          "Value": "Tuan4.styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-DuSjF3oKdMx5R83oYTXtw6+vAjUcw1EQRfH6Kvwv1aY="
+        }
+      ]
+    },
+    {
+      "Route": "Tuan4.styles.css",
+      "AssetFile": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Tuan4.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1123"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DuSjF3oKdMx5R83oYTXtw6+vAjUcw1EQRfH6Kvwv1aY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 09:44:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-DuSjF3oKdMx5R83oYTXtw6+vAjUcw1EQRfH6Kvwv1aY="
+        }
+      ]
+    },
+    {
+      "Route": "videos/video.dcaxp8o82n.mp4",
+      "AssetFile": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\videos\\video.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6757249"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Y/QonCEJOIGbp4nltlyh1JxTdoEBnSDPvzwPVQh5Pm4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 09:41:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dcaxp8o82n"
+        },
+        {
+          "Name": "label",
+          "Value": "videos/video.mp4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Y/QonCEJOIGbp4nltlyh1JxTdoEBnSDPvzwPVQh5Pm4="
+        }
+      ]
+    },
+    {
+      "Route": "videos/video.mp4",
+      "AssetFile": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\videos\\video.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6757249"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Y/QonCEJOIGbp4nltlyh1JxTdoEBnSDPvzwPVQh5Pm4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 09:41:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Y/QonCEJOIGbp4nltlyh1JxTdoEBnSDPvzwPVQh5Pm4="
+        }
+      ]
+    }
+  ]
+}

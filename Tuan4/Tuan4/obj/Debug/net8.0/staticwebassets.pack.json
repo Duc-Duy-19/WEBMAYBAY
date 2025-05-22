@@ -1,0 +1,217 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Tuan4.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Tuan4.qdehhsuoom.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\css\\datepicker.css",
+      "PackagePath": "staticwebassets\\css\\datepicker.css"
+    },
+    {
+      "Id": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\css\\tooplate-style.css",
+      "PackagePath": "staticwebassets\\css\\tooplate-style.css"
+    },
+    {
+      "Id": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\font-awesome-4.7.0\\HELP-US-OUT.txt",
+      "PackagePath": "staticwebassets\\font-awesome-4.7.0\\HELP-US-OUT.txt"
+    },
+    {
+      "Id": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\font-awesome-4.7.0\\css\\font-awesome.css",
+      "PackagePath": "staticwebassets\\font-awesome-4.7.0\\css\\font-awesome.css"
+    },
+    {
+      "Id": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\font-awesome-4.7.0\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\font-awesome-4.7.0\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\font-awesome-4.7.0\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\font-awesome-4.7.0\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\img\\Thumbs.db",
+      "PackagePath": "staticwebassets\\img\\Thumbs.db"
+    },
+    {
+      "Id": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\img\\bg-img-1.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img-1.jpg"
+    },
+    {
+      "Id": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\img\\bg-img-2.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img-2.jpg"
+    },
+    {
+      "Id": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\img\\bg-img-3.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img-3.jpg"
+    },
+    {
+      "Id": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\img\\img-01.jpg",
+      "PackagePath": "staticwebassets\\img\\img-01.jpg"
+    },
+    {
+      "Id": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\img\\img-02.jpg",
+      "PackagePath": "staticwebassets\\img\\img-02.jpg"
+    },
+    {
+      "Id": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\img\\img-03.jpg",
+      "PackagePath": "staticwebassets\\img\\img-03.jpg"
+    },
+    {
+      "Id": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\img\\img-04.jpg",
+      "PackagePath": "staticwebassets\\img\\img-04.jpg"
+    },
+    {
+      "Id": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\img\\img-05.jpg",
+      "PackagePath": "staticwebassets\\img\\img-05.jpg"
+    },
+    {
+      "Id": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\img\\logo.png",
+      "PackagePath": "staticwebassets\\img\\logo.png"
+    },
+    {
+      "Id": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\img\\tn-img-01.jpg",
+      "PackagePath": "staticwebassets\\img\\tn-img-01.jpg"
+    },
+    {
+      "Id": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\img\\tn-img-02.jpg",
+      "PackagePath": "staticwebassets\\img\\tn-img-02.jpg"
+    },
+    {
+      "Id": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\img\\tn-img-03.jpg",
+      "PackagePath": "staticwebassets\\img\\tn-img-03.jpg"
+    },
+    {
+      "Id": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\img\\tn-img-04.jpg",
+      "PackagePath": "staticwebassets\\img\\tn-img-04.jpg"
+    },
+    {
+      "Id": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\js\\datepicker.min.js",
+      "PackagePath": "staticwebassets\\js\\datepicker.min.js"
+    },
+    {
+      "Id": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\js\\jquery-1.11.3.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-1.11.3.min.js"
+    },
+    {
+      "Id": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\js\\jquery.singlePageNav.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.singlePageNav.min.js"
+    },
+    {
+      "Id": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\js\\popper.min.js",
+      "PackagePath": "staticwebassets\\js\\popper.min.js"
+    },
+    {
+      "Id": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\slick\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\slick\\ajax-loader.gif"
+    },
+    {
+      "Id": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\slick\\config.rb",
+      "PackagePath": "staticwebassets\\slick\\config.rb"
+    },
+    {
+      "Id": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\slick\\fonts\\slick.eot",
+      "PackagePath": "staticwebassets\\slick\\fonts\\slick.eot"
+    },
+    {
+      "Id": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\slick\\fonts\\slick.svg",
+      "PackagePath": "staticwebassets\\slick\\fonts\\slick.svg"
+    },
+    {
+      "Id": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\slick\\fonts\\slick.ttf",
+      "PackagePath": "staticwebassets\\slick\\fonts\\slick.ttf"
+    },
+    {
+      "Id": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\slick\\fonts\\slick.woff",
+      "PackagePath": "staticwebassets\\slick\\fonts\\slick.woff"
+    },
+    {
+      "Id": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\slick\\slick-theme.css",
+      "PackagePath": "staticwebassets\\slick\\slick-theme.css"
+    },
+    {
+      "Id": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\slick\\slick-theme.less",
+      "PackagePath": "staticwebassets\\slick\\slick-theme.less"
+    },
+    {
+      "Id": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\slick\\slick-theme.scss",
+      "PackagePath": "staticwebassets\\slick\\slick-theme.scss"
+    },
+    {
+      "Id": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\slick\\slick.css",
+      "PackagePath": "staticwebassets\\slick\\slick.css"
+    },
+    {
+      "Id": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\slick\\slick.js",
+      "PackagePath": "staticwebassets\\slick\\slick.js"
+    },
+    {
+      "Id": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\slick\\slick.less",
+      "PackagePath": "staticwebassets\\slick\\slick.less"
+    },
+    {
+      "Id": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\slick\\slick.min.js",
+      "PackagePath": "staticwebassets\\slick\\slick.min.js"
+    },
+    {
+      "Id": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\slick\\slick.scss",
+      "PackagePath": "staticwebassets\\slick\\slick.scss"
+    },
+    {
+      "Id": "C:\\QTR\\WEB\\LYTHUYETWEB\\Tuan4\\Tuan4\\wwwroot\\videos\\video.mp4",
+      "PackagePath": "staticwebassets\\videos\\video.mp4"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Tuan4.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Tuan4.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Tuan4.props",
+      "PackagePath": "build\\Tuan4.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Tuan4.props",
+      "PackagePath": "buildMultiTargeting\\Tuan4.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Tuan4.props",
+      "PackagePath": "buildTransitive\\Tuan4.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
