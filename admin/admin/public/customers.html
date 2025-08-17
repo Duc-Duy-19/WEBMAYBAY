@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quản lý khách hàng - Quản trị viên</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="admin-container">
+        <!-- Sidebar -->
+        <nav class="sidebar">
+            <div class="sidebar-header">
+                <h2>Quản trị</h2>
+                <span>Bảng điều khiển</span>
+            </div>
+            
+            <ul class="sidebar-menu">
+                <li class="menu-item">
+                    <a href="index.html">
+                        <i class="fas fa-home"></i>
+                        <span>Trang chủ</span>
+                    </a>
+                </li>
+                
+                <li class="menu-item active">
+                    <a href="#">
+                        <i class="fas fa-users"></i>
+                        <span>Quản lý người dùng</span>
+                    </a>
+                    <ul class="submenu">
+                        <li class="submenu-item active">
+                            <a href="customers.html">
+                                <i class="fas fa-user-friends"></i>
+                                <span>Khách hàng</span>
+                            </a>
+                        </li>
+                        <li class="submenu-item">
+                            <a href="users.html">
+                                <i class="fas fa-user"></i>
+                                <span>Người dùng</span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                
+                <li class="menu-item">
+                    <a href="flights.html">
+                        <i class="fas fa-plane"></i>
+                        <span>Chuyến bay</span>
+                    </a>
+                </li>
+                
+                <li class="menu-item">
+                    <a href="aircraft.html">
+                        <i class="fas fa-plane-departure"></i>
+                        <span>Máy bay</span>
+                    </a>
+                </li>
+                
+                <li class="menu-item">
+                    <a href="services.html">
+                        <i class="fas fa-concierge-bell"></i>
+                        <span>Dịch vụ</span>
+                    </a>
+                </li>
+                
+                <li class="menu-item">
+                    <a href="airports.html">
+                        <i class="fas fa-plane-arrival"></i>
+                        <span>Sân bay</span>
+                    </a>
+                </li>
+                
+                <li class="menu-item">
+                    <a href="hoadon.html">
+                        <i class="fas fa-file-invoice-dollar"></i>
+                        <span>Hóa đơn</span>
+                    </a>
+                </li>
+                <li class="menu-item">
+                    <a href="doanhthu.html">
+                        <i class="fas fa-file-invoice-dollar"></i>
+                        <span>Doanh Thu</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        
+        <!-- Main Content -->
+        <div class="main-content">
+            <!-- Header -->
+            <header class="header">
+                <div class="header-left">
+                    <button class="menu-toggle" onclick="toggleSidebar()">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                    <h1 class="page-title">Quản lý khách hàng</h1>
+                </div>
+                
+                <div class="header-right">
+                    <div class="notifications">
+                        <button class="notification-btn">
+                            <i class="fas fa-bell"></i>
+                            <span class="notification-badge">3</span>
+                        </button>
+                    </div>
+                    
+                    <div class="user-menu">
+                        <div class="user-avatar">
+                            <img src="images/avatar.png" alt="Ảnh đại diện">
+                        </div>
+                        <button class="sign-out-btn" onclick="logout()">Đăng xuất</button>
+                    </div>
+                </div>
+            </header>
+            
+            <!-- Page Content -->
+            <div class="page-content">
+                <div class="page-header">
+                    <h2>Quản lý khách hàng</h2>
+                </div>
+                
+                <!-- Search and Filter -->
+                <div class="search-filter-container">
+                    <div class="search-box">
+                        <input type="text" id="searchCustomer" placeholder="Tìm kiếm theo tên khách hàng..." class="form-control">
+                    </div>
+                    <div class="filter-box">
+                        <select id="filterGender" class="form-control">
+                            <option value="">Tất cả giới tính</option>
+                            <option value="male">Nam</option>
+                            <option value="female">Nữ</option>
+                            <option value="other">Khác</option>
+                        </select>
+                    </div>
+                </div>
+                
+                <div class="data-table-container">
+                    <table class="data-table" id="customersTable">
+                        <thead>
+                            <tr>
+                                <th><input type="checkbox" class="select-all"></th>
+                                <th>ID</th>
+                                <th>ID Người dùng</th>
+                                <th>Họ tên</th>
+                                <th>Email</th>
+                                <th>Số điện thoại</th>
+                                <th>Ngày sinh</th>
+                                <th>Giới tính</th>
+                                <th>Địa chỉ</th>
+                                <th>Thao tác</th>
+                            </tr>
+                        </thead>
+                        <tbody id="customersTableBody">
+                            <!-- Dữ liệu sẽ được tải động -->
+                        </tbody>
+                    </table>
+                </div>
+                
+                <div class="pagination">
+                    <button class="btn btn-sm" id="prevPage" disabled>Trước</button>
+                    <span class="page-info">Trang <span id="currentPage">1</span> / <span id="totalPages">1</span></span>
+                    <button class="btn btn-sm" id="nextPage">Sau</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Modal Xem chi tiết Khách hàng -->
+    <div id="viewCustomerModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Chi tiết khách hàng</h3>
+                <span class="close" onclick="closeViewModal()">&times;</span>
+            </div>
+            <div class="modal-body" id="customerDetails">
+                <!-- Chi tiết sẽ được tải động -->
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" onclick="closeViewModal()">Đóng</button>
+            </div>
+        </div>
+    </div>
+    
+    <script src="js/main.js"></script>
+    <script src="js/auth.js"></script>
+    <script src="js/customers.js"></script>
+</body>
+</html> 

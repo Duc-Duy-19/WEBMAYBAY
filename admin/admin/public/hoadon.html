@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quản lý hóa đơn - Quản trị viên</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="admin-container">
+        <!-- Sidebar -->
+        <nav class="sidebar">
+            <div class="sidebar-header">
+                <h2>Quản trị</h2>
+                <span>Bảng điều khiển</span>
+            </div>
+            
+            <ul class="sidebar-menu">
+                <li class="menu-item">
+                    <a href="index.html">
+                        <i class="fas fa-home"></i>
+                        <span>Trang chủ</span>
+                    </a>
+                </li>
+                
+                <li class="menu-item">
+                    <a href="admins.html">
+                        <i class="fas fa-users-cog"></i>
+                        <span>Quản trị viên</span>
+                    </a>
+                    <ul class="submenu">
+
+                        <li class="submenu-item">
+                            <a href="customers.html">
+                                <i class="fas fa-user-friends"></i>
+                                <span>Khách hàng</span>
+                            </a>
+                        </li>
+                        <li class="submenu-item">
+                            <a href="users.html">
+                                <i class="fas fa-user"></i>
+                                <span>Người dùng</span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                
+                <li class="menu-item">
+                    <a href="flights.html">
+                        <i class="fas fa-plane"></i>
+                        <span>Chuyến bay</span>
+                    </a>
+                </li>
+                
+                <li class="menu-item">
+                    <a href="aircraft.html">
+                        <i class="fas fa-plane-departure"></i>
+                        <span>Máy bay</span>
+                    </a>
+                </li>
+                
+                <li class="menu-item">
+                    <a href="services.html">
+                        <i class="fas fa-concierge-bell"></i>
+                        <span>Dịch vụ</span>
+                    </a>
+                </li>
+                
+                <li class="menu-item">
+                    <a href="airports.html">
+                        <i class="fas fa-plane-arrival"></i>
+                        <span>Sân bay</span>
+                    </a>
+                </li>
+                
+                <li class="menu-item">
+                    <a href="ve.html">
+                        <i class="fas fa-ticket-alt"></i>
+                        <span>Vé máy bay</span>
+                    </a>
+                </li>
+                
+                <li class="menu-item active">
+                    <a href="hoadon.html">
+                        <i class="fas fa-file-invoice-dollar"></i>
+                        <span>Hóa đơn</span>
+                    </a>
+                </li>
+                <li class="menu-item">
+                    <a href="doanhthu.html">
+                        <i class="fas fa-file-invoice-dollar"></i>
+                        <span>Doanh Thu</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        
+        <!-- Main Content -->
+        <div class="main-content">
+            <!-- Header -->
+            <header class="header">
+                <div class="header-left">
+                    <button class="menu-toggle" onclick="toggleSidebar()">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                    <h1 class="page-title">Quản lý hóa đơn</h1>
+                </div>
+                
+                <div class="header-right">
+                    <div class="notifications">
+                        <button class="notification-btn">
+                            <i class="fas fa-bell"></i>
+                            <span class="notification-badge">3</span>
+                        </button>
+                    </div>
+                    
+                    <div class="user-menu">
+                        <div class="user-info">
+                            <span id="adminName">Admin</span>
+                        </div>
+                        <button class="sign-out-btn" onclick="logout()">Đăng xuất</button>
+                    </div>
+                </div>
+            </header>
+            
+            <!-- Page Content -->
+            <div class="page-content">
+                <div class="page-header">
+                    <h2>Quản lý hóa đơn</h2>
+                </div>
+                
+                <!-- Search and Filter -->
+                <div class="search-filter-container">
+                    <div class="search-box">
+                        <input type="text" id="searchHoaDon" placeholder="Tìm kiếm theo ID, người dùng..." class="form-control">
+                    </div>
+                    <div class="filter-box">
+                        <select id="filterUser" class="form-control">
+                            <option value="">Tất cả người dùng</option>
+                            <!-- Sẽ được tải động -->
+                        </select>
+                    </div>
+                    <div class="filter-box">
+                        <input type="date" id="filterDate" class="form-control" placeholder="Lọc theo ngày">
+                    </div>
+                </div>
+                
+                <div class="data-table-container">
+                    <table class="data-table" id="hoadonTable">
+                        <thead>
+                            <tr>
+                                <th><input type="checkbox" class="select-all"></th>
+                                <th>ID</th>
+                                <th>Ngày thanh toán</th>
+                                <th>Tổng tiền</th>
+                                <th>Khách hàng</th>
+                                <th>ID Admin</th>
+                                <th>ID Người dùng</th>
+                                <th>ID Vé</th>
+                                <th>Thao tác</th>
+                            </tr>
+                        </thead>
+                        <tbody id="hoadonTableBody">
+                            <!-- Dữ liệu sẽ được tải động -->
+                        </tbody>
+                    </table>
+                </div>
+                
+                <div class="pagination">
+                    <button class="btn btn-sm" id="prevPage" disabled>Trước</button>
+                    <span class="page-info">Trang <span id="currentPage">1</span> / <span id="totalPages">1</span></span>
+                    <button class="btn btn-sm" id="nextPage">Sau</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Modal Xem chi tiết Hóa đơn -->
+    <div id="viewHoaDonModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Chi tiết hóa đơn</h3>
+                <span class="close" onclick="closeViewModal()">&times;</span>
+            </div>
+            <div class="modal-body" id="hoaDonDetails">
+                <!-- Chi tiết sẽ được tải động -->
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" onclick="closeViewModal()">Đóng</button>
+            </div>
+        </div>
+    </div>
+    
+    <script src="js/main.js"></script>
+    <script src="js/auth.js"></script>
+    <script src="js/hoadon.js"></script>
+</body>
+</html> 

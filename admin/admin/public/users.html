@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quản lý người dùng - Quản trị viên</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="admin-container">
+        <!-- Sidebar -->
+        <nav class="sidebar">
+            <div class="sidebar-header">
+                <h2>Quản trị</h2>
+                <span>Bảng điều khiển</span>
+            </div>
+            
+            <ul class="sidebar-menu">
+                <li class="menu-item">
+                    <a href="index.html">
+                        <i class="fas fa-home"></i>
+                        <span>Trang chủ</span>
+                    </a>
+                </li>
+                
+                <li class="menu-item active">
+                    <a href="#">
+                        <i class="fas fa-users"></i>
+                        <span>Quản lý người dùng</span>
+                    </a>
+                    <ul class="submenu">
+                        <li class="submenu-item">
+                            <a href="customers.html">
+                                <i class="fas fa-user-friends"></i>
+                                <span>Khách hàng</span>
+                            </a>
+                        </li>
+                        <li class="submenu-item active">
+                            <a href="users.html">
+                                <i class="fas fa-user"></i>
+                                <span>Người dùng</span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                
+                <li class="menu-item">
+                    <a href="flights.html">
+                        <i class="fas fa-plane"></i>
+                        <span>Chuyến bay</span>
+                    </a>
+                </li>
+                
+                <li class="menu-item">
+                    <a href="aircraft.html">
+                        <i class="fas fa-plane-departure"></i>
+                        <span>Máy bay</span>
+                    </a>
+                </li>
+                
+                <li class="menu-item">
+                    <a href="services.html">
+                        <i class="fas fa-concierge-bell"></i>
+                        <span>Dịch vụ</span>
+                    </a>
+                </li>
+                
+                <li class="menu-item">
+                    <a href="airports.html">
+                        <i class="fas fa-plane-arrival"></i>
+                        <span>Sân bay</span>
+                    </a>
+                </li>
+                
+                <li class="menu-item">
+                    <a href="hoadon.html">
+                        <i class="fas fa-file-invoice-dollar"></i>
+                        <span>Hóa đơn</span>
+                    </a>
+                </li>
+                <li class="menu-item">
+                    <a href="doanhthu.html">
+                        <i class="fas fa-file-invoice-dollar"></i>
+                        <span>Doanh Thu</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        
+        <!-- Main Content -->
+        <div class="main-content">
+            <!-- Header -->
+            <header class="header">
+                <div class="header-left">
+                    <button class="menu-toggle" onclick="toggleSidebar()">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                    <h1 class="page-title">Quản lý người dùng</h1>
+                </div>
+                
+                <div class="header-right">
+                    <div class="notifications">
+                        <button class="notification-btn">
+                            <i class="fas fa-bell"></i>
+                            <span class="notification-badge">3</span>
+                        </button>
+                    </div>
+                    
+                    <div class="user-menu">
+                        <div class="user-info">
+                            <span id="adminName">Admin</span>
+                        </div>
+                        <button class="sign-out-btn" onclick="logout()">Đăng xuất</button>
+                    </div>
+                </div>
+            </header>
+            
+            <!-- Page Content -->
+            <div class="page-content">
+                <div class="page-header">
+                    <h2>Quản lý người dùng</h2>
+                    <button id="addUser" class="btn btn-primary">
+                        <i class="fas fa-plus"></i> Thêm người dùng mới
+                    </button>
+                </div>
+                
+                <div class="card">
+                    <div class="card-header">
+                        <div class="search-filter">
+                            <div class="search-box">
+                                <input type="text" id="searchInput" placeholder="Tìm kiếm theo tên, email, số điện thoại...">
+                            </div>
+                            <div class="search-options">
+                                <label><input type="checkbox" id="searchName" checked> Tên</label>
+                                <label><input type="checkbox" id="searchEmail" checked> Email</label>
+                                <label><input type="checkbox" id="searchPhone" checked> SĐT</label>
+                            </div>
+                        </div>
+                        <div class="info-display">
+                            Số người dùng: <span id="userCount">0</span>
+                        </div>
+                    </div>
+                    
+                    <div class="card-body">
+                        <div class="table-responsive">
+                            <table class="table" id="usersTable">
+                                <thead>
+                                    <tr>
+                                        <th><input type="checkbox" class="select-all"></th>
+                                        <th>ID</th>
+                                        <th>Email</th>
+                                        <th>Họ tên</th>
+                                        <th>Mật khẩu</th>
+                                        <th>Số điện thoại</th>
+                                        <th>Thao tác</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <!-- Dữ liệu sẽ được thêm vào đây bằng JavaScript -->
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    
+                    <div class="card-footer">
+                        <div class="pagination">
+                            <button id="prevPage" class="btn btn-sm">Trước</button>
+                            <span id="pageInfo">Trang 1 / 1</span>
+                            <button id="nextPage" class="btn btn-sm">Sau</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Modal Xem chi tiết người dùng -->
+    <div id="viewUserModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Chi tiết người dùng</h3>
+                <span class="close" onclick="closeViewModal()">&times;</span>
+            </div>
+            <div class="modal-body" id="userDetails">
+                <!-- Chi tiết sẽ được tải động -->
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" onclick="closeViewModal()">Đóng</button>
+            </div>
+        </div>
+    </div>
+    
+    <script src="js/main.js"></script>
+    <script src="js/auth.js"></script>
+    <script src="js/users.js"></script>
+</body>
+</html> 

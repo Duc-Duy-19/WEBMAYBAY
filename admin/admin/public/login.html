@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng nhập - Hệ thống Quản trị</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/components.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        .login-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: linear-gradient(135deg, #00b4db, #0083b0);
+        }
+        
+        .login-box {
+            background: white;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 400px;
+        }
+        
+        .login-header {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        
+        .login-header h1 {
+            color: #333;
+            font-size: 1.8rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .login-form .form-group {
+            margin-bottom: 1.5rem;
+        }
+        
+        .login-form label {
+            display: block;
+            margin-bottom: 0.5rem;
+            color: #555;
+        }
+        
+        .login-form input {
+            width: 100%;
+            padding: 0.8rem;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+        
+        .login-form .password-field {
+            position: relative;
+        }
+        
+        .login-form .toggle-password {
+            position: absolute;
+            right: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            cursor: pointer;
+            color: #666;
+        }
+        
+        .login-btn {
+            width: 100%;
+            padding: 1rem;
+            background: #0083b0;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+        
+        .login-btn:hover {
+            background: #00b4db;
+        }
+        
+        .error-message {
+            color: #dc3545;
+            font-size: 0.9rem;
+            margin-top: 0.5rem;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <div class="login-box">
+            <div class="login-header">
+                <h1>Đăng nhập Quản trị</h1>
+                <p>Vui lòng đăng nhập để tiếp tục</p>
+            </div>
+            
+            <form id="loginForm" class="login-form">
+                <div class="form-group">
+                    <label for="username">Tài khoản</label>
+                    <input type="text" id="username" name="username" required placeholder="Nhập tài khoản">
+                </div>
+                
+                <div class="form-group">
+                    <label for="password">Mật khẩu</label>
+                    <div class="password-field">
+                        <input type="password" id="password" name="password" required placeholder="Nhập mật khẩu">
+                        <i class="fas fa-eye toggle-password" onclick="togglePassword()"></i>
+                    </div>
+                </div>
+                
+                <div class="error-message" id="errorMessage"></div>
+                
+                <button type="submit" class="login-btn">Đăng nhập</button>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        // Định nghĩa URL API
+        const API_URL = 'http://localhost:3000';
+
+        document.getElementById('loginForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            
+            const username = document.getElementById('username').value;
+            const password = document.getElementById('password').value;
+            const errorMessage = document.getElementById('errorMessage');
+            const loginButton = document.querySelector('.login-btn');
+            
+            try {
+                // Disable nút đăng nhập và hiển thị trạng thái loading
+                loginButton.disabled = true;
+                loginButton.textContent = 'Đang đăng nhập...';
+                errorMessage.style.display = 'none';
+                
+                console.log('Đang gửi request đăng nhập...', { username });
+                
+                console.log('Sending login request with:', { username, password });
+                const response = await fetch(`${API_URL}/api/admins/login`, {
+                    method: 'POST',
+                    headers: {
+                        'Accept': 'application/json',
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({ 
+                        taiKhoan: username, 
+                        matKhau: password 
+                    })
+                });
+                
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                
+                console.log('Trạng thái response:', response.status);
+                
+                let data;
+                const contentType = response.headers.get('content-type');
+                
+                if (contentType && contentType.includes('application/json')) {
+                    data = await response.json();
+                } else {
+                    console.error('Response headers:', Object.fromEntries(response.headers));
+                    throw new Error('Server không trả về JSON. Vui lòng kiểm tra API endpoint.');
+                }
+                
+                console.log('Dữ liệu response:', data);
+                
+                if (response.ok) {
+                    console.log('Đăng nhập thành công, dữ liệu:', data);
+                    localStorage.setItem('adminToken', data.token);
+                    localStorage.setItem('adminInfo', JSON.stringify(data.admin));
+                    window.location.href = './index.html';
+                } else {
+                    errorMessage.style.display = 'block';
+                    errorMessage.style.color = '#dc3545';
+                    
+                    switch (response.status) {
+                        case 401:
+                            errorMessage.textContent = data.message || 'Tài khoản hoặc mật khẩu không chính xác';
+                            break;
+                        case 404:
+                            errorMessage.textContent = 'Không tìm thấy endpoint API. Vui lòng kiểm tra cấu hình server';
+                            break;
+                        case 500:
+                            errorMessage.textContent = data.message || 'Lỗi server. Vui lòng thử lại sau';
+                            break;
+                        default:
+                            errorMessage.textContent = data.message || 'Có lỗi xảy ra khi đăng nhập';
+                    }
+                }
+            } catch (error) {
+                console.error('Chi tiết lỗi:', error);
+                errorMessage.style.display = 'block';
+                errorMessage.style.color = '#dc3545';
+                
+                if (error.message === 'Failed to fetch') {
+                    errorMessage.textContent = 'Không thể kết nối đến server. Vui lòng kiểm tra:\n' +
+                        '1. Server đã được khởi động (port 3000)\n' +
+                        '2. Không có vấn đề về CORS\n' +
+                        '3. Kết nối mạng ổn định';
+                } else {
+                    errorMessage.textContent = 'Lỗi không xác định: ' + error.message;
+                }
+            } finally {
+                // Restore nút đăng nhập
+                loginButton.disabled = false;
+                loginButton.textContent = 'Đăng nhập';
+            }
+        });
+
+        // Hiển thị/ẩn mật khẩu
+        function togglePassword() {
+            const passwordInput = document.getElementById('password');
+            const toggleIcon = document.querySelector('.toggle-password');
+            
+            if (passwordInput.type === 'password') {
+                passwordInput.type = 'text';
+                toggleIcon.classList.remove('fa-eye');
+                toggleIcon.classList.add('fa-eye-slash');
+            } else {
+                passwordInput.type = 'password';
+                toggleIcon.classList.remove('fa-eye-slash');
+                toggleIcon.classList.add('fa-eye');
+            }
+        }
+
+        // Kiểm tra xem người dùng đã đăng nhập chưa
+        function checkAuth() {
+            const token = localStorage.getItem('adminToken');
+            if (token) {
+                window.location.href = './index.html';
+            }
+        }
+
+        // Chạy kiểm tra khi trang được tải
+        checkAuth();
+    </script>
+</body>
+</html> 

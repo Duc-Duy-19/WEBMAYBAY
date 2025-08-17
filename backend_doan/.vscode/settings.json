@@ -1,0 +1,7 @@
+{
+    "liveServer.settings.port": 5501,
+  "liveServer.settings.useWebExt": false,
+  "liveServer.settings.mount": [
+    ["/javascript", "./javascript"]
+  ]
+}

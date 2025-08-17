@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quản lý chuyến bay - Quản trị viên</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        /* CSS để đảm bảo modal hiển thị và tương tác đúng */
+        .modal { z-index: 1050 !important; }
+        .modal-backdrop { z-index: 1040 !important; }
+        .modal-dialog { max-width: 800px; }
+        .form-label { font-weight: 500; }
+        .form-label .text-danger { font-weight: bold; }
+    </style>
+</head>
+<body>
+    <div class="admin-container">
+        <!-- Sidebar -->
+        <nav class="sidebar">
+            <div class="sidebar-header">
+                <h2>Quản trị</h2>
+                <span>Bảng điều khiển</span>
+            </div>
+            
+            <ul class="sidebar-menu">
+                <li class="menu-item">
+                    <a href="index.html">
+                        <i class="fas fa-home"></i>
+                        <span>Trang chủ</span>
+                    </a>
+                </li>
+                
+                <li class="menu-item">
+                    <a href="admins.html">
+                        <i class="fas fa-users-cog"></i>
+                        <span>Quản trị viên</span>
+                    </a>
+                </li>
+                
+                <li class="menu-item active">
+                    <a href="flights.html">
+                        <i class="fas fa-plane"></i>
+                        <span>Chuyến bay</span>
+                    </a>
+                </li>
+                
+                <li class="menu-item">
+                    <a href="aircraft.html">
+                        <i class="fas fa-plane-departure"></i>
+                        <span>Máy bay</span>
+                    </a>
+                </li>
+                
+                <li class="menu-item">
+                    <a href="services.html">
+                        <i class="fas fa-concierge-bell"></i>
+                        <span>Dịch vụ</span>
+                    </a>
+                </li>
+                
+                <li class="menu-item">
+                    <a href="airports.html">
+                        <i class="fas fa-plane-arrival"></i>
+                        <span>Sân bay</span>
+                    </a>
+                </li>
+                
+                <li class="menu-item">
+                    <a href="ve.html">
+                        <i class="fas fa-ticket-alt"></i>
+                        <span>Vé máy bay</span>
+                    </a>
+                </li>
+                
+                <li class="menu-item">
+                    <a href="hoadon.html">
+                        <i class="fas fa-file-invoice-dollar"></i>
+                        <span>Hóa đơn</span>
+                    </a>
+                </li>
+                <li class="menu-item">
+                    <a href="doanhthu.html">
+                        <i class="fas fa-file-invoice-dollar"></i>
+                        <span>Doanh Thu</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        
+        <!-- Main Content -->
+        <div class="main-content">
+            <!-- Header -->
+            <header class="header">
+                <div class="header-left">
+                    <button class="menu-toggle" onclick="toggleSidebar()">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                    <h1 class="page-title">Chuyến bay</h1>
+                </div>
+                
+                <div class="header-right">
+                    <div class="notifications">
+                        <button class="notification-btn">
+                            <i class="fas fa-bell"></i>
+                            <span class="notification-badge">3</span>
+                        </button>
+                    </div>
+                    
+                    <div class="user-menu">
+                        <div class="user-info">
+                            <span id="adminName">Admin</span>
+                        </div>
+                        <button class="sign-out-btn" onclick="logout()">
+                            <i class="fas fa-sign-out-alt"></i> Đăng xuất
+                        </button>
+                    </div>
+                </div>
+            </header>
+            
+            <!-- Page Content -->
+            <div class="page-content">
+                <div class="page-header">
+                    <h2>Quản lý chuyến bay</h2>
+                    <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#flightAddModal">
+                        <i class="fas fa-plus"></i> Thêm chuyến bay mới
+                    </button>
+                </div>
+                
+                <!-- Search Box -->
+                <div class="search-filter-container">
+                    <div class="search-box">
+                        <input type="text" id="searchFlight" placeholder="Tìm kiếm chuyến bay..." class="form-control">
+                    </div>
+                    <div class="filter-box">
+                        <select id="filterStatus" class="form-control">
+                            <option value="">Tất cả trạng thái</option>
+                            <option value="Đang mở bán">Đang mở bán</option>
+                            <option value="Đã khởi hành">Đã khởi hành</option>
+                            <option value="Đã hủy">Đã hủy</option>
+                            <option value="Hoàn thành">Hoàn thành</option>
+                        </select>
+                    </div>
+                </div>
+                
+                <div class="data-table-container">
+                    <table class="data-table" id="flightsTable">
+                        <thead>
+                            <tr>
+                                <th><input type="checkbox" class="select-all"></th>
+                                <th>ID</th>
+                                <th>Sân bay đi</th>
+                                <th>Sân bay đến</th>
+                                <th>Máy bay</th>
+                                <th>Thời gian khởi hành</th>
+                                <th>Thời gian hạ cánh</th>
+                                <th>Giá cơ sở</th>
+                                <th>Trạng thái</th>
+                                <th>Thao tác</th>
+                            </tr>
+                        </thead>
+                        <tbody id="flightsTableBody">
+                            <!-- Dữ liệu sẽ được tải động -->
+                        </tbody>
+                    </table>
+                </div>
+                
+                <div class="pagination">
+                    <button class="btn btn-sm" id="prevPage" disabled>Trước</button>
+                    <span class="page-info">Trang <span id="currentPage">1</span> / <span id="totalPages">1</span></span>
+                    <button class="btn btn-sm" id="nextPage">Sau</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Modal Chi tiết Chuyến bay -->
+    <div id="flightDetailModal" class="modal fade" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header bg-info text-white">
+                    <h5 class="modal-title" id="flightModalTitle">Chi tiết chuyến bay</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body" id="flightModalBody">
+                    <!-- Nội dung chi tiết sẽ được cập nhật bằng JavaScript -->
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Đóng</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Modal Thêm Chuyến bay -->
+    <div id="flightAddModal" class="modal fade" tabindex="-1" aria-labelledby="flightAddModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header bg-primary text-white">
+                    <h5 class="modal-title" id="flightAddModalLabel">Thêm chuyến bay mới</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="flightAddForm" class="needs-validation" novalidate>
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <label for="addSanBayDi" class="form-label">Sân bay đi:<span class="text-danger">*</span></label>
+                                <select id="addSanBayDi" class="form-select" required>
+                                    <option value="">-- Chọn sân bay đi --</option>
+                                    <!-- Sẽ được cập nhật bằng JavaScript -->
+                                </select>
+                                <div class="invalid-feedback">Vui lòng chọn sân bay đi</div>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="addSanBayDen" class="form-label">Sân bay đến:<span class="text-danger">*</span></label>
+                                <select id="addSanBayDen" class="form-select" required>
+                                    <option value="">-- Chọn sân bay đến --</option>
+                                    <!-- Sẽ được cập nhật bằng JavaScript -->
+                                </select>
+                                <div class="invalid-feedback">Vui lòng chọn sân bay đến</div>
+                            </div>
+                        </div>
+                        
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <label for="addMayBay" class="form-label">Máy bay:<span class="text-danger">*</span></label>
+                                <select id="addMayBay" class="form-select" required>
+                                    <option value="">-- Chọn máy bay --</option>
+                                    <!-- Sẽ được cập nhật bằng JavaScript -->
+                                </select>
+                                <div class="invalid-feedback">Vui lòng chọn máy bay</div>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="addTrangThai" class="form-label">Trạng thái:<span class="text-danger">*</span></label>
+                                <select id="addTrangThai" class="form-select" required>
+                                    <option value="Đang mở bán">Đang mở bán</option>
+                                    <option value="Đã khởi hành">Đã khởi hành</option>
+                                    <option value="Đã hủy">Đã hủy</option>
+                                    <option value="Hoàn thành">Hoàn thành</option>
+                                </select>
+                                <div class="invalid-feedback">Vui lòng chọn trạng thái</div>
+                            </div>
+                        </div>
+                        
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <label for="addKhoiHanh" class="form-label">Thời gian khởi hành:<span class="text-danger">*</span></label>
+                                <input type="datetime-local" id="addKhoiHanh" class="form-control" required>
+                                <div class="invalid-feedback">Vui lòng nhập thời gian khởi hành</div>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="addHaCanh" class="form-label">Thời gian hạ cánh:<span class="text-danger">*</span></label>
+                                <input type="datetime-local" id="addHaCanh" class="form-control" required>
+                                <div class="invalid-feedback">Vui lòng nhập thời gian hạ cánh</div>
+                            </div>
+                        </div>
+                        
+                        <div class="mb-3">
+                            <label for="addGiaCoSo" class="form-label">Giá cơ sở:<span class="text-danger">*</span></label>
+                            <div class="input-group">
+                                <input type="number" id="addGiaCoSo" class="form-control" required min="0">
+                                <span class="input-group-text">VND</span>
+                            </div>
+                            <div class="invalid-feedback">Vui lòng nhập giá cơ sở</div>
+                        </div>
+                        
+                        <div class="d-flex justify-content-end mt-4">
+                            <button type="button" class="btn btn-secondary me-2" data-bs-dismiss="modal">Hủy</button>
+                            <button type="submit" class="btn btn-primary">
+                                <i class="fas fa-plus-circle me-1"></i>Thêm chuyến bay
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Modal Chỉnh sửa Chuyến bay -->
+    <div id="flightEditModal" class="modal fade" tabindex="-1" aria-labelledby="flightEditModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header bg-primary text-white">
+                    <h5 class="modal-title" id="flightEditModalLabel">Chỉnh sửa chuyến bay</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="flightEditForm" class="needs-validation" novalidate>
+                        <input type="hidden" id="editFlightId">
+                        
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <label for="editSanBayDi" class="form-label">Sân bay đi:<span class="text-danger">*</span></label>
+                                <select id="editSanBayDi" class="form-select" required>
+                                    <option value="">-- Chọn sân bay đi --</option>
+                                    <!-- Sẽ được cập nhật bằng JavaScript -->
+                                </select>
+                                <div class="invalid-feedback">Vui lòng chọn sân bay đi</div>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="editSanBayDen" class="form-label">Sân bay đến:<span class="text-danger">*</span></label>
+                                <select id="editSanBayDen" class="form-select" required>
+                                    <option value="">-- Chọn sân bay đến --</option>
+                                    <!-- Sẽ được cập nhật bằng JavaScript -->
+                                </select>
+                                <div class="invalid-feedback">Vui lòng chọn sân bay đến</div>
+                            </div>
+                        </div>
+                        
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <label for="editMayBay" class="form-label">Máy bay:<span class="text-danger">*</span></label>
+                                <select id="editMayBay" class="form-select" required>
+                                    <option value="">-- Chọn máy bay --</option>
+                                    <!-- Sẽ được cập nhật bằng JavaScript -->
+                                </select>
+                                <div class="invalid-feedback">Vui lòng chọn máy bay</div>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="editTrangThai" class="form-label">Trạng thái:<span class="text-danger">*</span></label>
+                                <select id="editTrangThai" class="form-select" required>
+                                    <option value="Đang mở bán">Đang mở bán</option>
+                                    <option value="Đã khởi hành">Đã khởi hành</option>
+                                    <option value="Đã hủy">Đã hủy</option>
+                                    <option value="Hoàn thành">Hoàn thành</option>
+                                </select>
+                                <div class="invalid-feedback">Vui lòng chọn trạng thái</div>
+                            </div>
+                        </div>
+                        
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <label for="editKhoiHanh" class="form-label">Thời gian khởi hành:<span class="text-danger">*</span></label>
+                                <input type="datetime-local" id="editKhoiHanh" class="form-control" required>
+                                <div class="invalid-feedback">Vui lòng nhập thời gian khởi hành</div>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="editHaCanh" class="form-label">Thời gian hạ cánh:<span class="text-danger">*</span></label>
+                                <input type="datetime-local" id="editHaCanh" class="form-control" required>
+                                <div class="invalid-feedback">Vui lòng nhập thời gian hạ cánh</div>
+                            </div>
+                        </div>
+                        
+                        <div class="mb-3">
+                            <label for="editGiaCoSo" class="form-label">Giá cơ sở:<span class="text-danger">*</span></label>
+                            <div class="input-group">
+                                <input type="number" id="editGiaCoSo" class="form-control" required min="0">
+                                <span class="input-group-text">VND</span>
+                            </div>
+                            <div class="invalid-feedback">Vui lòng nhập giá cơ sở</div>
+                        </div>
+                        
+                        <div class="d-flex justify-content-end mt-4">
+                            <button type="button" class="btn btn-secondary me-2" data-bs-dismiss="modal">Hủy</button>
+                            <button type="submit" class="btn btn-success">
+                                <i class="fas fa-save me-1"></i>Cập nhật
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/flights.js"></script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /
+Allow: /public/login.html
+
+# Ngăn chặn truy cập vào các thư mục và file quan trọng
+Disallow: /public/api/
+Disallow: /.git/
+Disallow: /.env
+Disallow: /.htaccess 

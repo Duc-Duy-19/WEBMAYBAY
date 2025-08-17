@@ -1,0 +1,37 @@
+# Chuyển hướng từ trang gốc đến trang đăng nhập
+RewriteEngine On
+RewriteCond %{REQUEST_URI} ^/$
+RewriteRule ^(.*)$ /public/login.html [L,R=302]
+
+# Bảo mật thư mục
+Options -Indexes
+
+# Ngăn chặn truy cập trực tiếp vào các file .htaccess và các file nhạy cảm
+<FilesMatch "^\.htaccess|\.env|\.git">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
+
+# Thiết lập header bảo mật
+<IfModule mod_headers.c>
+    Header set X-Content-Type-Options "nosniff"
+    Header set X-XSS-Protection "1; mode=block"
+    Header set X-Frame-Options "SAMEORIGIN"
+    Header set Strict-Transport-Security "max-age=31536000; includeSubDomains"
+</IfModule>
+
+# Nén file để tăng tốc độ tải trang
+<IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css text/javascript application/javascript application/x-javascript
+</IfModule>
+
+# Cache các file tĩnh
+<IfModule mod_expires.c>
+    ExpiresActive On
+    ExpiresByType image/jpg "access plus 1 year"
+    ExpiresByType image/jpeg "access plus 1 year"
+    ExpiresByType image/gif "access plus 1 year"
+    ExpiresByType image/png "access plus 1 year"
+    ExpiresByType text/css "access plus 1 month"
+    ExpiresByType application/javascript "access plus 1 month"
+</IfModule> 

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thêm người dùng mới - Quản trị viên</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="admin-container">
+        <!-- Sidebar -->
+        <nav class="sidebar">
+            <div class="sidebar-header">
+                <h2>Quản trị</h2>
+                <span>Bảng điều khiển</span>
+            </div>
+            
+            <ul class="sidebar-menu">
+                <li class="menu-item">
+                    <a href="index.html">
+                        <i class="fas fa-home"></i>
+                        <span>Trang chủ</span>
+                    </a>
+                </li>
+                
+                <li class="menu-item active">
+                    <a href="#">
+                        <i class="fas fa-users"></i>
+                        <span>Quản lý người dùng</span>
+                    </a>
+                    <ul class="submenu">
+                        <li class="submenu-item">
+                            <a href="customers.html">
+                                <i class="fas fa-user-friends"></i>
+                                <span>Khách hàng</span>
+                            </a>
+                        </li>
+                        <li class="submenu-item active">
+                            <a href="users.html">
+                                <i class="fas fa-user"></i>
+                                <span>Người dùng</span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                
+                <li class="menu-item">
+                    <a href="flights.html">
+                        <i class="fas fa-plane"></i>
+                        <span>Chuyến bay</span>
+                    </a>
+                </li>
+                
+                <li class="menu-item">
+                    <a href="aircraft.html">
+                        <i class="fas fa-plane-departure"></i>
+                        <span>Máy bay</span>
+                    </a>
+                </li>
+                
+                <li class="menu-item">
+                    <a href="services.html">
+                        <i class="fas fa-concierge-bell"></i>
+                        <span>Dịch vụ</span>
+                    </a>
+                </li>
+                
+                <li class="menu-item">
+                    <a href="airports.html">
+                        <i class="fas fa-plane-arrival"></i>
+                        <span>Sân bay</span>
+                    </a>
+                </li>
+                
+                <li class="menu-item">
+                    <a href="hoadon.html">
+                        <i class="fas fa-file-invoice-dollar"></i>
+                        <span>Hóa đơn</span>
+                    </a>
+                </li>
+                <li class="menu-item">
+                    <a href="doanhthu.html">
+                        <i class="fas fa-file-invoice-dollar"></i>
+                        <span>Doanh Thu</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        
+        <!-- Main Content -->
+        <div class="main-content">
+            <!-- Header -->
+            <header class="header">
+                <div class="header-left">
+                    <button class="menu-toggle" onclick="toggleSidebar()">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                    <h1 class="page-title">Thêm người dùng mới</h1>
+                </div>
+                
+                <div class="header-right">
+                    <div class="notifications">
+                        <button class="notification-btn">
+                            <i class="fas fa-bell"></i>
+                            <span class="notification-badge">3</span>
+                        </button>
+                    </div>
+                    
+                    <div class="user-menu">
+                        <div class="user-info">
+                            <span id="adminName">Admin</span>
+                        </div>
+                        <button class="sign-out-btn" onclick="logout()">Đăng xuất</button>
+                    </div>
+                </div>
+            </header>
+            
+            <!-- Page Content -->
+            <div class="page-content">
+                <div class="page-header">
+                    <h2>Thêm người dùng mới</h2>
+                    <a href="users.html" class="btn btn-secondary">
+                        <i class="fas fa-arrow-left"></i> Quay lại
+                    </a>
+                </div>
+                
+                <div class="form-container">
+                    <form id="createUserForm">
+                        <div class="form-group">
+                            <label for="email">Email <span class="required">*</span></label>
+                            <input type="email" id="email" name="email" class="form-control" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="hoTen">Họ tên</label>
+                            <input type="text" id="hoTen" name="hoTen" class="form-control">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="matKhau">Mật khẩu <span class="required">*</span></label>
+                            <input type="password" id="matKhau" name="matKhau" class="form-control" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="sdt">Số điện thoại</label>
+                            <input type="tel" id="sdt" name="sdt" class="form-control">
+                        </div>
+                        
+                        <div class="form-actions">
+                            <button type="button" class="btn btn-secondary" onclick="location.href='users.html'">Hủy</button>
+                            <button type="submit" class="btn btn-primary">Lưu</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="js/main.js"></script>
+    <script src="js/auth.js"></script>
+    <script src="js/user-create.js"></script>
+</body>
+</html> 

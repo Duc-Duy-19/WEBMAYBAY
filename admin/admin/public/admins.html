@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quản lý người dùng - Quản trị viên</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        .page-content {
+            padding: 30px;
+        }
+        
+        .overview-stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+        
+        .stat-card {
+            background: #fff;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            display: flex;
+            align-items: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .stat-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+        }
+        
+        .stat-icon {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 20px;
+            font-size: 24px;
+            color: white;
+        }
+        
+        .stat-icon.users {
+            background: linear-gradient(135deg, #6a11cb, #2575fc);
+        }
+        
+        .stat-icon.customers {
+            background: linear-gradient(135deg, #f83600, #fe8c00);
+        }
+        
+        .stat-icon.active {
+            background: linear-gradient(135deg, #11998e, #38ef7d);
+        }
+        
+        .stat-icon.inactive {
+            background: linear-gradient(135deg, #ee0979, #ff6a00);
+        }
+        
+        .stat-info h3 {
+            font-size: 24px;
+            margin: 0;
+            color: #333;
+        }
+        
+        .stat-info p {
+            margin: 5px 0 0;
+            color: #666;
+            font-size: 14px;
+        }
+        
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+            gap: 25px;
+            margin-top: 30px;
+        }
+        
+        .feature-card {
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            position: relative;
+            cursor: pointer;
+        }
+        
+        .feature-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+        }
+        
+        .feature-card .card-header {
+            height: 120px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .feature-card .customers-bg {
+            background: linear-gradient(135deg, #f83600, #fe8c00);
+        }
+        
+        .feature-card .users-bg {
+            background: linear-gradient(135deg, #6a11cb, #2575fc);
+        }
+        
+        .feature-card i {
+            font-size: 40px;
+            position: relative;
+            z-index: 1;
+        }
+        
+        .feature-card .card-header::before {
+            content: '';
+            position: absolute;
+            width: 150px;
+            height: 150px;
+            background: rgba(255,255,255,0.1);
+            border-radius: 50%;
+            right: -50px;
+            bottom: -50px;
+        }
+        
+        .feature-card .card-header::after {
+            content: '';
+            position: absolute;
+            width: 80px;
+            height: 80px;
+            background: rgba(255,255,255,0.15);
+            border-radius: 50%;
+            left: -20px;
+            top: -20px;
+        }
+        
+        .feature-card .card-body {
+            padding: 25px;
+            text-align: center;
+        }
+        
+        .feature-card h3 {
+            margin: 0 0 15px;
+            color: #333;
+            font-size: 22px;
+        }
+        
+        .feature-card p {
+            margin: 0;
+            color: #666;
+            font-size: 15px;
+            line-height: 1.5;
+        }
+        
+        .feature-card .card-footer {
+            padding: 15px 25px;
+            text-align: center;
+            border-top: 1px solid #f0f0f0;
+        }
+        
+        .feature-card .btn-view {
+            display: inline-block;
+            padding: 8px 20px;
+            background: #f0f0f0;
+            color: #333;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: 500;
+            transition: background 0.3s ease;
+        }
+        
+        .feature-card .customers-btn:hover {
+            background: #fe8c00;
+            color: white;
+        }
+        
+        .feature-card .users-btn:hover {
+            background: #2575fc;
+            color: white;
+        }
+        
+        .page-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 30px;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 15px;
+        }
+        
+        .page-header h2 {
+            margin: 0;
+            color: #333;
+            font-size: 24px;
+            position: relative;
+        }
+        
+        .page-header h2::after {
+            content: '';
+            position: absolute;
+            width: 60px;
+            height: 3px;
+            background: #0083b0;
+            bottom: -16px;
+            left: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="admin-container">
+        <!-- Sidebar -->
+        <nav class="sidebar">
+            <div class="sidebar-header">
+                <h2>Quản trị</h2>
+                <span>Bảng điều khiển</span>
+            </div>
+            
+            <ul class="sidebar-menu">
+                <li class="menu-item">
+                    <a href="index.html">
+                        <i class="fas fa-home"></i>
+                        <span>Trang chủ</span>
+                    </a>
+                </li>
+                
+                <li class="menu-item active">
+                    <a href="#">
+                        <i class="fas fa-users"></i>
+                        <span>Quản lý người dùng</span>
+                    </a>
+                    <ul class="submenu">
+                        <li class="submenu-item">
+                            <a href="customers.html">
+                                <i class="fas fa-user-friends"></i>
+                                <span>Khách hàng</span>
+                            </a>
+                        </li>
+                        <li class="submenu-item">
+                            <a href="users.html">
+                                <i class="fas fa-user"></i>
+                                <span>Người dùng</span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                
+                <li class="menu-item">
+                    <a href="flights.html">
+                        <i class="fas fa-plane"></i>
+                        <span>Chuyến bay</span>
+                    </a>
+                </li>
+                
+                <li class="menu-item">
+                    <a href="aircraft.html">
+                        <i class="fas fa-plane-departure"></i>
+                        <span>Máy bay</span>
+                    </a>
+                </li>
+                
+                <li class="menu-item">
+                    <a href="services.html">
+                        <i class="fas fa-concierge-bell"></i>
+                        <span>Dịch vụ</span>
+                    </a>
+                </li>
+                
+                <li class="menu-item">
+                    <a href="airports.html">
+                        <i class="fas fa-plane-arrival"></i>
+                        <span>Sân bay</span>
+                    </a>
+                </li>
+                
+                <li class="menu-item">
+                    <a href="ve.html">
+                        <i class="fas fa-ticket-alt"></i>
+                        <span>Vé máy bay</span>
+                    </a>
+                </li>
+                
+                <li class="menu-item">
+                    <a href="hoadon.html">
+                        <i class="fas fa-file-invoice-dollar"></i>
+                        <span>Hóa đơn</span>
+                    </a>
+                </li>
+                <li class="menu-item">
+                    <a href="doanhthu.html">
+                        <i class="fas fa-file-invoice-dollar"></i>
+                        <span>Doanh Thu</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        
+        <!-- Main Content -->
+        <div class="main-content">
+            <!-- Header -->
+            <header class="header">
+                <div class="header-left">
+                    <button class="menu-toggle" onclick="toggleSidebar()">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                    <h1 class="page-title">Quản lý người dùng</h1>
+                </div>
+                
+                <div class="header-right">
+                    <div class="notifications">
+                        <button class="notification-btn">
+                            <i class="fas fa-bell"></i>
+                            <span class="notification-badge">3</span>
+                        </button>
+                    </div>
+                    
+                    <div class="user-menu">
+                        <div class="user-avatar">
+                            <img src="images/avatar.png" alt="Ảnh đại diện">
+                        </div>
+                        <button class="sign-out-btn" onclick="logout()">Đăng xuất</button>
+                    </div>
+                </div>
+            </header>
+            
+            <!-- Page Content -->
+            <div class="page-content">
+                <div class="page-header">
+                    <h2>Tổng quan người dùng</h2>
+                </div>
+                
+                <!-- Bỏ phần thống kê nhanh -->
+                
+                <div class="features-grid">
+                    <div class="feature-card" onclick="location.href='./customers.html'">
+                        <div class="card-header customers-bg">
+                            <i class="fas fa-user-friends"></i>
+                        </div>
+                        <div class="card-body">
+                            <h3>Quản lý Khách hàng</h3>
+                            <p>Xem và quản lý thông tin khách hàng đặt vé. Theo dõi lịch sử đặt vé, thông tin cá nhân và tùy chỉnh tài khoản khách hàng.</p>
+                    </div>
+                        <div class="card-footer">
+                            <a href="customers.html" class="btn-view customers-btn">Xem chi tiết</a>
+                    </div>
+                </div>
+                
+                    <div class="feature-card" onclick="location.href='./users.html'">
+                        <div class="card-header users-bg">
+                            <i class="fas fa-user"></i>
+                </div>
+                        <div class="card-body">
+                            <h3>Quản lý Người dùng</h3>
+                            <p>Xem và quản lý thông tin người dùng hệ thống. Phân quyền, cập nhật thông tin và kiểm soát trạng thái hoạt động của tài khoản.</p>
+                </div>
+                        <div class="card-footer">
+                            <a href="users.html" class="btn-view users-btn">Xem chi tiết</a>
+            </div>
+        </div>
+    </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="js/main.js"></script>
+    <script src="js/auth.js"></script>
+    <script src="js/admins.js"></script>
+</body>
+</html>
