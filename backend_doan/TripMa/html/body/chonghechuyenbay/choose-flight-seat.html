@@ -1,0 +1,333 @@
+<head>
+    <meta charset="UTF-8">
+    <title>Chọn chỗ ngồi</title>
+    <link rel="stylesheet" href="../../../style.css">
+    <link rel="stylesheet" href="../../../css/body/chonghechuyenbay/choose-flight-seat.css">
+</head>
+<body>
+
+    <div class="container">
+        <!-- Thông tin chuyến bay -->
+        <div class="flight-info">
+            <div class="flight-header">
+                <div class="flight-title">
+                    <span class="flight-icon">✈️</span>
+                    <h2>Thông tin chuyến bay</h2>
+                    <span class="flight-number-badge" id="flight-number">VN123</span>
+                </div>
+                <!-- Thông tin hãng bay -->
+                <div class="airline-info">
+                    <img src="../../../assets/logo/vietnamairlines.png" alt="Logo Hãng Bay" class="airline-logo">
+                    <span class="airline-name">Vietnam Airlines</span>
+                </div>
+            </div>
+            
+            <div class="flight-route">
+                <div class="airport">
+                    <div class="airport-name" id="departure-airport-name">Tên sân bay đi</div>
+                    <div class="airport-city">TP HCM, Việt Nam</div>
+                </div>
+                <div class="flight-arrow">
+                    <div class="arrow-line"></div>
+                    <div class="arrow-head">→</div>
+                </div>
+                <div class="airport">
+                    <div class="airport-name" id="arrival-airport-name">Tên sân bay đến</div>
+                    <div class="airport-city">Huế, Việt Nam</div>
+                </div>
+            </div>
+            
+            <div class="flight-details">
+                <div class="flight-time-info">
+                    <div class="time-item">
+                        <span class="time-icon">🛫</span>
+                        <div class="time-content">
+                            <div class="time-value" id="departure-time-label">Thời gian đi</div>
+                            <div class="time-label">Khởi hành</div>
+                        </div>
+                    </div>
+                    <div class="time-item">
+                        <span class="time-icon">🛬</span>
+                        <div class="time-content">
+                            <div class="time-value" id="arrival-time-label">Thời gian đến</div>
+                            <div class="time-label">Hạ cánh</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main content area with seat selection and passenger info -->
+        <div class="main-content-area">
+            <!-- Thẻ chọn ghế chính -->
+            <div class="card seat-selection-card">
+                <div class="card-header">
+                    <div class="card-title">Chọn ghế ngồi</div>
+                    <div>Chuyến bay: <span id="flight-number"></span></div>
+                </div>
+                <div class="card-body">
+                    <div class="airplane-container">
+                        <div class="airplane">
+                            <div class="fuselage">
+                                <div class="cockpit">
+                                    <div class="windshield"></div>
+                                </div>
+                                <div class="cabin" id="cabin"></div>
+                            </div>
+                        </div>
+                        
+                        <!-- Chú thích ghế -->
+                        <div class="seat-legend">
+                            <div class="legend-item">
+                                <div class="legend-color legend-business"></div>
+                                <span>Ghế thương gia</span>
+                            </div>
+                            <div class="legend-item">
+                                <div class="legend-color legend-economy"></div>
+                                <span>Ghế phổ thông</span>
+                            </div>
+                            <div class="legend-item">
+                                <div class="legend-color legend-selected"></div>
+                                <span>Ghế đã chọn</span>
+                            </div>
+                            <div class="legend-item">
+                                <div class="legend-color legend-unavailable"></div>
+                                <span>Không có sẵn</span>
+                            </div>
+                        </div>
+                        
+                        <!-- Lựa chọn loại ghế -->
+                        <div class="seat-types">
+                            <!-- Ghế phổ thông -->
+                            <div class="seat-type-card active" data-type="economy">
+                                <div class="seat-type-header">
+                                    <div class="seat-color-sample economy-sample"></div>
+                                    <div>
+                                        <div class="seat-type-name">Ghế hạng phổ thông</div>
+                                        <div class="seat-type-price">Miễn phí</div>
+                                        <span class="seats-remaining">Còn 80 ghế</span>
+                                    </div>
+                                </div>
+                                <div class="seat-type-features">
+                                    <div class="feature-item">
+                                        <span class="feature-icon">✓</span>
+                                        <span>Hỗ trợ ưu tiên</span>
+                                    </div>
+                                    <div class="feature-item">
+                                        <span class="feature-icon">✓</span>
+                                        <span>Được mang 7kg hành lý xách tay</span>
+                                    </div>
+                                    <div class="feature-item">
+                                        <span class="feature-icon">✓</span>
+                                        <span>Có thể đổi lịch trình</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Ghế thương gia -->
+                            <div class="seat-type-card" data-type="business">
+                                <div class="seat-type-header">
+                                    <div class="seat-color-sample business-sample"></div>
+                                    <div>
+                                        <div class="seat-type-name">Ghế hạng thương gia</div>
+                                        <div class="seat-type-price">+ 50% Giá Vé</div>
+                                        <span class="seats-remaining">Còn 10 ghế</span>
+                                    </div>
+                                </div>
+                                <div class="seat-type-features">
+                                    <div class="feature-item">
+                                        <span class="feature-icon">✓</span>
+                                        <span>Ghế ngồi rộng rãi, riêng tư</span>
+                                    </div>
+                                    <div class="feature-item">
+                                        <span class="feature-icon">✓</span>
+                                        <span>Miễn phí hành lý ký gửi</span>
+                                    </div>
+                                    <div class="feature-item">
+                                        <span class="feature-icon">✓</span>
+                                        <span>Ưu tiên làm thủ tục</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Passenger summary card -->
+            <div class="passenger-summary">
+                <div class="card-header">
+                    <div class="card-title">Thông tin hành khách</div>
+                </div>
+                <!-- Thông tin hành khách chính -->
+                <div class="main-passenger-info">
+                    <div class="passenger-profile">
+                        <div class="passenger-avatar" id="passenger-avatar">
+                            <!-- Chữ cái đầu sẽ được set qua JavaScript -->
+                            L
+                        </div>
+                        <div class="passenger-details">
+                            <h4 class="passenger-name">Đang tải thông tin...</h4>
+                            <p class="passenger-username" id="passenger-username">letoanthang</p>
+                        </div>
+                    </div>
+                    <div class="passenger-meta">
+                        <div class="meta-item">
+                            <span class="meta-icon">📧</span>
+                            <span id="passenger-email">example@gmail.com</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-icon">📞</span>
+                            <span id="passenger-phone">0123456789</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-icon">👤</span>
+                            <span>Hành khách chính</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-icon">🎫</span>
+                            <span>Ghế hạng phổ thông</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Danh sách hành khách động -->
+                <div class="passenger-list-container">
+                    <div class="passenger-list-header">
+                        <h4>Danh sách hành khách</h4>
+                        <button id="add-passenger-btn" class="btn btn-outline">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="12" y1="5" x2="12" y2="19"></line>
+                                <line x1="5" y1="12" x2="19" y2="12"></line>
+                            </svg>
+                            Thêm hành khách
+                        </button>
+                    </div>
+                    <div class="passenger-list" id="passenger-list">
+                        <!-- Các hành khách sẽ được thêm vào đây qua JavaScript -->
+                    </div>
+                </div>
+                <div class="price-summary">
+                      <!-- Phần chọn dịch vụ -->
+                    <div class="service-selection">
+                        <div class="form-group">
+                            <label for="dichvu-method">Dịch vụ thêm:</label>
+                            <select id="dichvu-method">
+                                <option value="">Chọn dịch vụ</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="price-row">
+                        <div class="price-label">Giá vé cơ bản:</div>
+                        <div class="price-value" id="base-price">1,600,000 VND</div>
+                    </div>
+                    <div class="price-row">
+                        <div class="price-label">Phụ thu ghế:</div>
+                        <div class="price-value" id="seat-surcharge">0 VND</div>
+                    </div>
+                    <div class="price-row">
+                        <div class="price-label">Giá dịch vụ:</div>
+                        <div class="price-value" id="service-price">0 VND</div>
+                    </div>
+                    <div class="total-row">
+                        <div class="total-label">Tổng cộng:</div>
+                        <div class="total-value" id="total-price"></div>
+                    </div>
+                </div>
+                
+                <div class="action-buttons">
+                    <button class="btn btn-back" id="back-button">Quay lại</button>
+                    <button class="btn btn-primary" id="open-confirmation-modal">Đặt Vé</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal nhập thông tin hành khách -->
+    <div id="seat-modal" class="modal" style="display:none;">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h3>Thông tin hành khách cho ghế <span id="modal-seat-label"></span></h3>
+            <form id="passenger-form">
+                <div class="form-group">
+                    <label for="modal-fullname">Họ và tên:</label>
+                    <input type="text" id="modal-fullname" required>
+                </div>
+                
+                <div class="form-group">
+                    <label>Loại ghế:</label>
+                    <input type="text" id="modal-seat-type" readonly>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="modal-id-number">Số CMND/CCCD:</label>
+                        <input type="text" id="modal-id-number" placeholder="9 hoặc 12 chữ số">
+                    </div>
+                    <div class="form-group">
+                        <label for="modal-dob">Ngày sinh:</label>
+                        <input type="date" id="modal-dob">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="modal-phone">Số điện thoại:</label>
+                    <input type="tel" id="modal-phone" placeholder="Số điện thoại (10 số)">
+                </div>
+                <div class="form-group">
+                    <label for="modal-email">Email:</label>
+                    <input type="email" id="modal-email" placeholder="Email">
+                </div>
+                <div class="form-group">
+                    <label for="modal-gender">Giới tính:</label>
+                    <select id="modal-gender">
+                        <option value="">Chọn</option>
+                        <option value="Nam">Nam</option>
+                        <option value="Nữ">Nữ</option>
+                        <option value="Khác">Khác</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="modal-address">Địa chỉ:</label>
+                    <input type="text" id="modal-address" placeholder="Địa chỉ">
+                </div>
+                <div class="form-group">
+                    <label for="modal-seat-price">Giá vé:</label>
+                    <input type="text" id="modal-seat-price" readonly>
+                </div>
+                <div class="form-actions">
+                    <button type="button" class="btn btn-outline" id="modal-cancel">Hủy</button>
+                    <button type="submit" class="btn btn-primary">Xác nhận</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Modal xác nhận khi có nhiều hành khách -->
+    <div id="confirmation-modal" class="modal" style="display:none;">
+        <div class="modal-content">
+            <span class="close-btn confirmation-close">&times;</span>
+            <h3>Xác nhận chọn ghế</h3>
+            <div class="confirmation-content">
+                <p>Bạn đã chọn <span id="seats-count">0</span> ghế cho <span id="passengers-count">0</span> hành khách:</p>
+                <div id="confirmation-passenger-list"></div>
+                <div class="confirmation-total">
+                    <div class="total-label">Tổng tiền:</div>
+                    <div class="total-value" id="confirmation-total-price">0 VND</div>
+                </div>
+            </div>
+            <div class="form-actions">
+                <button type="button" class="btn btn-outline confirmation-close">Hủy</button>
+                <button type="button" class="btn btn-primary" id="confirm-booking">Xác nhận đặt vé</button>
+            </div>
+            <div class="form-group">
+                <label for="payment-method">Phương thức thanh toán:</label>
+                <select id="payment-method"></select>
+            </div>
+            
+        </div>
+    </div>
+    
+    <!-- Add JavaScript file -->
+    <script src="../../../javascript/load-choose-flight-seat.js"></script>
+    <script src="../../../javascript/load-choose-flight-seat.js"></script>
+</body>
+</html>

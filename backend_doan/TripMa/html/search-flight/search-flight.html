@@ -1,0 +1,69 @@
+<link rel="stylesheet" href="css/search-flight/search-flight.css">
+
+<section class="search-flight">
+    <div class="search-flight-header">
+        <h1>Còn hơn cả một chuyến bay</h1>
+        <p>Đặt vé máy bay giá rẻ, nhanh chóng và tiện lợi.</p>
+    </div>
+    <form class="search-flight-form">
+        <div class="input-group">
+            <span class="icon">🛫</span>
+            <select id="departure" name="departure" required>
+                <option value="" disabled selected>Tới từ?</option>
+                <!-- Options sẽ được load động từ API -->
+            </select>
+        </div>
+        <div class="input-group">
+            <span class="icon">🛬</span>
+            <select id="destination" name="destination" required>
+                <option value="" disabled selected>Điểm đến?</option>
+                <!-- Options sẽ được load động từ API -->
+            </select>
+        </div>
+        <div class="input-group">
+            <span class="icon">📅</span>
+            <input type="date" id="departure-date" name="departure-date" required>
+        </div>
+        <div class="input-group passenger-dropdown-group">
+            <span class="icon">👤</span>
+            <div class="passenger-dropdown">
+                <div class="passenger-summary" id="passenger-summary">1 người lớn</div>
+                <div class="passenger-dropdown-content" id="passenger-dropdown-content">
+                    <div class="passenger-type">
+                        <span>Người lớn</span>
+                        <button type="button" class="btn-minus" data-type="adult">-</button>
+                        <span class="count" id="adult-count">1</span>
+                        <button type="button" class="btn-plus" data-type="adult">+</button>
+                    </div>
+                    <div class="passenger-type">
+                        <span>Trẻ em</span>
+                        <button type="button" class="btn-minus" data-type="child">-</button>
+                        <span class="count" id="child-count">0</span>
+                        <button type="button" class="btn-plus" data-type="child">+</button>
+                    </div>
+                    <div class="passenger-type">
+                        <span>Người già</span>
+                        <button type="button" class="btn-minus" data-type="senior">-</button>
+                        <span class="count" id="senior-count">0</span>
+                        <button type="button" class="btn-plus" data-type="senior">+</button>
+                    </div>
+                    <button type="button" class="btn-close-dropdown" id="close-passenger-dropdown">Xong</button>
+                </div>
+                <input type="hidden" id="adult-input" name="adult" value="1">
+                <input type="hidden" id="child-input" name="child" value="0">
+                <input type="hidden" id="senior-input" name="senior" value="0">
+            </div>
+        </div>
+        <button type="submit" class="btn-search">Tìm kiếm</button>
+    </form>
+</section>
+
+<script>
+const dateInput = document.getElementById('departure-date');
+const today = new Date();
+const yyyy = today.getFullYear();
+const mm = String(today.getMonth() + 1).padStart(2, '0');
+const dd = String(today.getDate()).padStart(2, '0');
+const minDate = `${yyyy}-${mm}-${dd}`;
+dateInput.setAttribute('min', minDate);
+</script>

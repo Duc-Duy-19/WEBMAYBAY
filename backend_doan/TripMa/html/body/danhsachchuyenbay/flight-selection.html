@@ -1,0 +1,200 @@
+<link rel="stylesheet" href="../../../css/body/danhsachchuyenbay/flight-selection.css">
+
+
+<!-- Chọn chuyến bay -->
+<section class="flight-selection">
+    <h3 class="selection-title">Lựa chọn chuyến bay khứ hồi</h3>
+    <div class="flight-list"></div>
+</section>
+
+<script>
+function formatFlightTime(timeString) {
+    if (!timeString) return '00:00';
+    if (timeString.includes(' ')) {
+        return timeString.split(' ')[1].slice(0, 5);
+    }
+    return timeString;
+}
+
+function parseDateTimeString(str) {
+    if (!str) return null;
+    if (str.includes(' ')) {
+        const [datePart, timePart] = str.split(' ');
+        const [year, month, day] = datePart.split('-').map(Number);
+        const [hour, minute] = timePart.split(':').map(Number);
+        return new Date(year, month - 1, day, hour, minute);
+    }
+    return new Date(str);
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+    const flights = JSON.parse(sessionStorage.getItem('searchFlightResults') || '[]');
+    const flightList = document.querySelector('.flight-list');
+    if (!flightList) return;
+
+    flightList.innerHTML = '';
+
+    if (!flights.length) {
+        flightList.innerHTML = '<div class="no-flights">Không có chuyến bay nào phù hợp.</div>';
+        return;
+    }
+
+    flights.forEach(flight => {
+        // Tính thời gian bay bằng phút
+        const departureTimeObj = parseDateTimeString(flight.ThoiGianKhoiHanh);
+        const arrivalTimeObj = parseDateTimeString(flight.ThoiGianHaCanh);
+        const durationMinutes = Math.round((arrivalTimeObj - departureTimeObj)/60000);
+        const hours = Math.floor(durationMinutes / 60);
+        const minutes = durationMinutes % 60;
+        const durationFormatted = `${hours}h ${minutes}phút`;
+        
+        // Lấy giá vé
+        const basePrice = Number(flight.GiaCoSo);
+        
+        // Số ghế còn lại
+        const standardSeats = Math.floor(Math.random() * 10) + 1;
+
+        // Mã sân bay (hardcode hoặc map từ ID nếu có)
+        const fromAirportCode = flight.ID_SanBayDi == 1 ? "SGN" : 
+                               flight.ID_SanBayDi == 2 ? "HAN" :
+                               flight.ID_SanBayDi == 3 ? "DAD" : "SGN";
+                                
+        const toAirportCode = flight.ID_SanBayDen == 1 ? "SGN" :
+                             flight.ID_SanBayDen == 2 ? "HAN" :
+                             flight.ID_SanBayDen == 3 ? "DAD" : "HAN";
+
+        // HTML cho card
+        const flightCard = document.createElement('div');
+        flightCard.className = 'flight-card';
+        flightCard.innerHTML = `
+            <img src="../../../assets/logo/logo.png" alt="Tripma Logo" class="tripma-logo">
+            <div class="flight-info">
+                <div class="flight-main-info">
+                    <div class="flight-route">
+                        <div class="flight-time-departure">
+                            <span class="time" style="font-size:2.2rem;font-weight:bold;color:#4b47d4;">
+                                ${formatFlightTime(flight.ThoiGianKhoiHanh)}
+                            </span>
+                            <span class="airport" style="font-size:1.2rem;font-weight:bold;color:#4b47d4;">${fromAirportCode}</span>
+                            <span class="terminal">Nhà ga ${Math.floor(Math.random() * 3) + 1}</span>
+                        </div>
+                        
+                        <div class="flight-direction">
+                            <span class="flight-type" style="color:#ff6600;font-weight:bold;">Bay thẳng</span>
+                            <div class="flight-line"></div>
+                        </div>
+                        
+                        <div class="flight-time-arrival">
+                            <span class="time" style="font-size:2.2rem;font-weight:bold;color:#4b47d4;">
+                                ${formatFlightTime(flight.ThoiGianHaCanh)}
+                            </span>
+                            <span class="airport" style="font-size:1.2rem;font-weight:bold;color:#4b47d4;">${toAirportCode}</span>
+                            <span class="terminal">Nhà ga ${Math.floor(Math.random() * 3) + 1}</span>
+                        </div>
+                    </div>
+                    
+                    <div class="flight-details">
+                        <div class="flight-duration">
+                            <span class="duration-icon">🕒</span>
+                            <span class="duration-text">Thời gian bay ${durationFormatted}</span>
+                        </div>
+                        <div class="flight-airline">
+                            <span class="flight-number">VN ${flight.ID_ChuyenBay}</span>
+                            <span class="airline-name">Khai thác bởi Vietnam Airlines</span>
+                        </div>
+                        <a href="#" class="flight-details-link" style="color:#5a56f3;font-weight:bold;">Chi tiết hành trình →</a>
+                    </div>
+                </div>
+            </div>
+            <div class="flight-fares">
+                <div class="fare-option economy" data-flight="${flight.ID_ChuyenBay}" data-class="economy">
+                    <div class="fare-header">
+                        <span class="fare-name" style="font-weight:bold;">PHỔ THÔNG</span>
+                        <span class="seats-left">${standardSeats} ghế còn lại</span>
+                    </div>
+                    <div class="fare-price">
+                        <span class="fare-from">từ</span>
+                        <span class="price-value" style="font-size:2rem;font-weight:bold;color:#ff6600;">${basePrice.toLocaleString()}</span>
+                        <span class="price-currency">VND</span>
+                    </div>
+                    <div class="fare-select">
+                        <button class="select-button" style="background:linear-gradient(90deg,#ff6600,#ffb347);color:white;font-weight:bold;border:none;border-radius:20px;padding:10px 30px;font-size:1.1rem;cursor:pointer;">Chọn</button>
+                    </div>
+                </div>
+            </div>
+        `;
+
+        // Thêm event listener cho các nút "Chọn"
+        const selectButtons = flightCard.querySelectorAll('.select-button');
+        selectButtons.forEach(button => {
+            button.addEventListener('click', function() {
+                const fareOption = button.closest('.fare-option');
+                const flightId = fareOption.dataset.flight;
+                const fareClass = fareOption.dataset.class;
+                const farePrice = fareOption.querySelector('.price-value').textContent.replace(/\D/g, '');
+                
+                // Lưu thông tin chuyến bay được chọn kèm thêm thông tin về hạng vé
+                const selectedInfo = JSON.parse(JSON.stringify(flight));
+                selectedInfo.selectedClass = fareClass;
+                selectedInfo.selectedPrice = farePrice;
+                
+                sessionStorage.setItem('selectedFlightInfo', JSON.stringify(selectedInfo));
+                
+                // Xử lý hiển thị placeholder hoặc chuyển trang
+                const passengerInfoPlaceholder = document.getElementById('passenger-info-placeholder');
+                const flightResultsPlaceholder = document.getElementById('flight-results-placeholder');
+                
+                if (passengerInfoPlaceholder && flightResultsPlaceholder) {
+                    flightResultsPlaceholder.style.display = 'none';
+                    passengerInfoPlaceholder.style.display = 'block';
+                    
+                    fetch('../../../html/body/chonghechuyenbay/choose-flight-seat.html')
+                        .then(response => {
+                            if (!response.ok) {
+                                throw new Error('Network response was not ok');
+                            }
+                            return response.text();
+                        })
+                        .then(html => {
+                            passengerInfoPlaceholder.innerHTML = html;
+                            // Nếu có CSS riêng cho choose-flight-seat thì load, nếu không thì bỏ qua
+                            if (!document.querySelector('link[href*="choose-flight-seat.css"]')) {
+                                const link = document.createElement('link');
+                                link.rel = 'stylesheet';
+                                link.href = '../../../css/body/chonghechuyenbay/choose-flight-seat.css';
+                                document.head.appendChild(link);
+                            }
+                            // Nếu có hàm khởi tạo riêng thì gọi ở đây (nếu có)
+                            if (typeof initChooseFlightSeat == 'function') {
+                                initChooseFlightSeat();
+                            }
+                            const backButton = document.createElement('button');
+                            backButton.textContent = 'Quay lại danh sách chuyến bay';
+                            backButton.className = 'back-button';
+                            backButton.onclick = function() {
+                                passengerInfoPlaceholder.style.display = 'none';
+                                flightResultsPlaceholder.style.display = 'block';
+                            };
+                            passengerInfoPlaceholder.insertBefore(backButton, passengerInfoPlaceholder.firstChild);
+                        })
+                        .catch(error => {
+                            console.error('Error:', error);
+                            passengerInfoPlaceholder.innerHTML = `
+                                <div style="text-align: center; padding: 20px;">
+                                    <h3>Có lỗi xảy ra khi tải form</h3>
+                                    <p>Vui lòng thử lại hoặc tải lại trang</p>
+                                    <button onclick="window.location.reload()">Tải lại trang</button>
+                                </div>`;
+                        });
+                } else {
+                    // Nếu không có placeholder, chuyển hướng đến trang thông tin hành khách
+                    window.location.href = '../../../html/body/chonghechuyenbay/choose-flight-seat.html';
+                }
+            });
+        });
+
+        // Thêm card vào danh sách
+        flightList.appendChild(flightCard);
+    });
+});
+</script>

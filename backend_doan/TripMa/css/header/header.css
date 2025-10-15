@@ -1,0 +1,196 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background-color: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    transition: all 0.3s ease;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+nav a:not(.btn-primary):not(.btn-tickets):after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -4px;
+    left: 0;
+    background-color: #5a56f3;
+    transition: width 0.3s ease;
+}
+
+nav a:not(.btn-primary):not(.btn-tickets):hover {
+    color: #5a56f3;
+}
+
+nav a:not(.btn-primary):not(.btn-tickets):hover:after {
+    width: 100%;
+}
+
+.btn-primary {
+    background-color: #5a56f3;
+    color: white !important;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn-primary:hover {
+    background-color: #4b47d4;
+}
+
+/* Styling cho nút Vé đã đặt */
+.btn-tickets {
+    background: linear-gradient(135deg, #1dd1b0, #00c6ff);
+    color: white !important;
+    padding: 10px 16px;
+    border-radius: 25px;
+    font-weight: 600;
+    font-size: 14px;
+    box-shadow: 0 4px 12px rgba(29, 209, 176, 0.3);
+    transition: all 0.3s ease;
+    border: none;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.btn-tickets:hover {
+    background: linear-gradient(135deg, #17a085, #0099cc);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(29, 209, 176, 0.4);
+    color: white !important;
+}
+
+.btn-tickets:active {
+    transform: translateY(0);
+}
+
+.logout-btn {
+    background-color: #5a56f3;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 6px rgba(90, 86, 243, 0.2);
+    width: 100%;
+    margin-top: 15px;
+}
+
+.logout-btn:hover {
+    background-color: #4b47d4;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(90, 86, 243, 0.3);
+}
+
+#profile-dropdown {
+    background: #fff;
+    border-radius: 14px;
+    box-shadow: 0 8px 32px rgba(90, 86, 243, 0.18), 0 1.5px 6px rgba(0,0,0,0.08);
+    padding: 22px 20px 18px 20px;
+    min-width: 260px;
+    animation: dropdownFade 0.22s cubic-bezier(.4,0,.2,1);
+    font-family: 'Segoe UI', Arial, sans-serif;
+    position: absolute;
+    right: 0;
+    top: 60px;
+    z-index: 1100;
+}
+
+#profile-dropdown b, #profile-dropdown strong {
+    font-size: 16px;
+    color: #5a56f3;
+    font-weight: 700;
+    margin-bottom: 2px;
+    display: inline-block;
+}
+
+#profile-dropdown span, #profile-dropdown p {
+    font-size: 15px;
+    color: #222;
+    margin-bottom: 4px;
+    display: block;
+    word-break: break-all;
+}
+
+#profile-dropdown .logout-btn {
+    margin-top: 18px;
+    background: linear-gradient(90deg, #5a56f3 60%, #7b7afc 100%);
+    color: #fff;
+    font-weight: 600;
+    border-radius: 8px;
+    font-size: 16px;
+    padding: 12px 0;
+    box-shadow: 0 2px 8px rgba(90, 86, 243, 0.13);
+    transition: background 0.2s, transform 0.2s;
+}
+
+#profile-dropdown .logout-btn:hover {
+    background: linear-gradient(90deg, #4b47d4 60%, #5a56f3 100%);
+    transform: translateY(-2px) scale(1.03);
+}
+
+#profile-dropdown hr {
+    border: none;
+    border-top: 1px solid #ececec;
+    margin: 12px 0;
+}
+
+#avatar-btn {
+    box-shadow: 0 2px 8px rgba(90, 86, 243, 0.10);
+    border: 2px solid #ececec;
+    background: linear-gradient(135deg, #f5f5f5 60%, #eaeaea 100%);
+}
+
+#avatar-btn:hover {
+    background: linear-gradient(135deg, #eaeaea 60%, #f5f5f5 100%);
+    border-color: #d1d1fa;
+}
+
+@media (max-width: 768px) {
+    header {
+        padding: 15px 20px;
+    }
+    
+    nav {
+        gap: 15px;
+    }
+    
+    .btn-primary {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+    
+    #profile-dropdown {
+        min-width: 90vw;
+        right: 5vw;
+        top: 55px;
+        padding: 16px 8px 12px 8px;
+    }
+}
+

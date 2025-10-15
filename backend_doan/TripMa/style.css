@@ -1,0 +1,31 @@
+/* Reset mặc định */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+body {
+    background-image: url('assets/backgroud/1.png');
+    background-size: cover;      /* Phủ kín màn hình */
+    background-position: center; /* Căn giữa */
+    background-repeat: no-repeat;
+    min-height: 100vh;           /* Chiều cao tối thiểu 100% màn hình */
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.btn-signup {
+    background-color: #5a56f3;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn-signup:hover {
+    background-color: #4b47d4;
+}
